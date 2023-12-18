@@ -1,0 +1,135 @@
+Connection Event: Carrier Detect found.288.64    Iridium console active and ready...
+Vehicle Name: koskelo
+Curr Time: Thu Nov  9 07:16:02 2023 MT:     288
+DR  Location:  5950.694 N  2314.970 E measured    238.171 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  6012.209 N  2457.612 E measured     1e+308 secs ago
+GPS Location:  5950.694 N  2314.970 E measured    239.442 secs ago
+   sensor:c_autoballast_state(enum)=0              1e+308 secs ago
+   sensor:c_climb_bpump(X)=1000                    1e+308 secs ago
+   sensor:c_dive_bpump(X)=-1000                    1e+308 secs ago
+   sensor:c_iridium_current_num(enum)=1            164.64 secs ago
+   sensor:c_wpt_lat(lat)=0                         1e+308 secs ago
+   sensor:c_wpt_lon(lon)=0                         1e+308 secs ago
+   sensor:m_battery(volts)=16.4385665276711          3.76 secs ago
+   sensor:m_bms_aft_current(amp)=0.155624           3.948 secs ago
+   sensor:m_bms_ebay_current(amp)=-0.000625         3.979 secs ago
+   sensor:m_bms_pitch_current(amp)=0.146872         4.011 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=0.0875           3.868 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=0.2225        3.872 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1022        0.072 secs ago
+   sensor:m_iridium_attempt_num(nodim)=3           48.378 secs ago
+   sensor:m_iridium_signal_strength(nodim)=0       36.289 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.47750305250305       27.807 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.48037240537241       27.772 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=2.48134920634921       27.737 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=99.896511627907        3.901 secs ago
+   sensor:m_tot_num_inflections(nodim)=9372        1e+308 secs ago
+   sensor:m_vacuum(inHg)=7.16797875457875           3.768 secs ago
+   sensor:m_water_vx(m/s)=0                        1e+308 secs ago
+   sensor:m_water_vy(m/s)=0                        1e+308 secs ago
+   sensor:u_alt_min_depth(m)=2                     1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=6042.7021            1e+308 secs ago
+   sensor:x_last_wpt_lon(lon)=2059.9589            1e+308 secs ago
+
+GliderLAB N -1 >288.77    No login script found for processing.
+:OOD:digifin_mgr_ctrl:OUT OF DEADBAND: M_FIN:0.1650 C_FIN:0.0000
+
+GliderLAB N -1 >cd config
+c:/config
+
+GliderLAB N -1 >:OOD:digifin_mgr_ctrl:OUT OF DEADBAND: M_FIN:-0.0811 C_FIN:0.0000
+type yo10.ma
+
+Command error: can't open source file
+
+GliderLAB N -1 >cd ..
+c:/
+
+GliderLAB N -1 >:OOD:digifin_mgr_ctrl:OUT OF DEADBAND: M_FIN:-0.1447 C_FIN:0.0000
+dir
+Directory of c://
+
+mafiles/
+missions/
+bin/
+config/
+state/
+logs/
+.Trash-1001/
+sentlogs/
+8 files
+
+GliderLAB N -1 >:OOD:digifin_mgr_ctrl:OUT OF DEADBAND: M_FIN:-0.0232 C_FIN:0.0000
+cd mafiles
+c:/mafiles
+
+GliderLAB N -1 >type yo10.ma
+behavior_name=yo
+# yo10.ma
+# climb 3m   dive 12m alt 9m pitch 26 deg
+# Hand Written
+# 18-Feb-02 tc@DinkumSoftware.com Initial
+# 13-Mar-02 tc@DinkumSoftware.com Bug fix, end_action from quit(0) to resume(2)
+# 09-Apr-03 kniewiad@webbresearch.com Adjusted for Ashumet
+# 2023-06-14 kimmo.tikka@fmi.fi Adjusted for Tvarminne, two yos, 5m from bottom, from surface
+# 2023-07-26 kimmo.tikka@fmi.fi Adjusted for the beginning, four yos, 4m from bottom, from surface 3
+# 2023-07-29 kimmo.tikka@fmi.fi 8 yos, 4m from bottom, from surface 3
+# 2023-08-18 kimmo.tikka@fmi.fi 3 yos, 4m from bottom, from surface 3
+# 2023-09-11 kimmo.tikka@fmi.fi 3 yos, 3m from bottom, from surface 3
+
+# 2023-09-12 kimmo.tikka@fmi.fi diving servo, glimbing  with set once
+# 2023-09-27 kimmo.tikka@fmi.fi diving servo, glimbing  with servo
+# 2023-09-27 kimmo.tikka@fmi.fi 8 yos, to 3.5
+# 2023-10-13 kimmo.tikka@fmi.fi 3 yos, to 3.5
+<start:b_arg>
+    b_arg: start_when(enum)      2   # pitch idle (see doco below)
+    b_arg: num_half_cycles_to_do(nodim) 16   # Number of dive/climbs to perform
+                                     # <0 is infinite, i.e. never finishes
+
+    # arguments for dive_to
+    b_arg: d_target_depth(m)    150
+    b_arg: d_target_altitude(m)   3.5
+
+    b_arg: d_use_pitch(enum)      3   # 1:battpos  2:setonce  3:servo
+                                      #   in         rad        rad, <0 dive
+    b_arg: d_pitch_value(X)   -0.4538     # -26 deg
+
+    # arguments for climb_to
+    b_arg: c_target_depth(m)      3
+    b_arg: c_target_altitude(m)  -1
+
+    b_arg: c_use_pitch(enum)      3   # 1:battpos  2:setonce  3:servo
+                                      #   in         rad        rad, >0 climb
+    b_arg: c_pitch_value(X)     0.4538     # 26 deg
+
+
+    b_arg: end_action(enum) 2     # 0-quit, 2 resume
+<end:b_arg>
+
+
+# NOTE: These are symbolically defined beh_args.h
+# b_arg: START_WHEN     When the behavior should start, i.e. go from UNITIALIZED to ACTIVE
+#    BAW_IMMEDIATELY    0   // immediately
+#    BAW_STK_IDLE       1   // When stack is idle (nothing is being commanded)
+#    BAW_PITCH_IDLE     2   // When pitch is idle(nothing is being commanded)
+#    BAW_HEADING_IDLE   3   // When heading is idle(nothing is being commanded)
+#    BAW_UPDWN_IDLE     4   // When bpump/threng is idle(nothing is being commanded)
+#    BAW_NEVER          5   // Never stop
+#    BAW_WHEN_SECS      6   // After behavior arg "when_secs", from prior END if cycling
+#    BAW_WHEN_WPT_DIST  7   // When sensor(m_dist_to_wpt) < behavior arg "when_wpt_dist"
+#    BAW_WHEN_HIT_WAYPOINT 8 // When X_HIT_A_WAYPOINT is set by goto_wpt behavior
+#    BAW_EVERY_SECS     9   // After behavior arg "when_secs", from prior START if cycling
+#    BAW_EVERY_SECS_UPDWN_IDLE 10  // After behavior arg "when_secs", from prior START AND
+#                                  //       updown is idle, no one commanding vertical motion
+#    BAW_SCI_SURFACE    11  // SCI_WANTS_SURFACE is non-zero
+#    BAW_NOCOMM_SECS    12  // when have not had comms for WHEN_SECS secs
+#
+# b_arg: STOP_WHEN
+#   0   complete
+#   1-N same as "start_when"
+
+GliderLAB N -1 >:OOD:digifin_mgr_ctrl:OUT OF DEADBAND: M_FIN:-0.1129 C_FIN:0.0000
+
+GliderLAB N -1 >

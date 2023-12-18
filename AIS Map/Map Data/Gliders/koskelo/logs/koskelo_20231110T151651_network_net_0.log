@@ -1,0 +1,274 @@
+ 4942    Iridium console active and ready...
+Vehicle Name: koskelo
+Curr Time: Fri Nov 10 15:16:36 2023 MT:    4942
+DR  Location:  5944.432 N  2313.894 E measured    164.518 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  5944.468 N  2314.109 E measured    261.618 secs ago
+GPS Location:  5944.432 N  2313.894 E measured    166.583 secs ago
+   sensor:c_autoballast_state(enum)=0              1e+308 secs ago
+   sensor:c_climb_bpump(X)=1000                    1e+308 secs ago
+   sensor:c_dive_bpump(X)=-1000                    1e+308 secs ago
+   sensor:c_iridium_current_num(enum)=0            1e+308 secs ago
+   sensor:c_wpt_lat(lat)=5944.71                  4904.14 secs ago
+   sensor:c_wpt_lon(lon)=2314.05                  4904.14 secs ago
+   sensor:m_battery(volts)=16.2699183023881        30.985 secs ago
+   sensor:m_bms_aft_current(amp)=0.192188           3.932 secs ago
+   sensor:m_bms_ebay_current(amp)=-0.000937         3.963 secs ago
+   sensor:m_bms_pitch_current(amp)=0.172812         3.995 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=9.859992         3.852 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=10.146244        3.855 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1021        4.081 secs ago
+   sensor:m_iridium_attempt_num(nodim)=4           35.315 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       23.327 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.47851037851038       27.058 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.48150183150183       27.023 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=2.48235653235653       26.988 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=95.2808167441861        3.885 secs ago
+   sensor:m_tot_num_inflections(nodim)=9648        284.63 secs ago
+   sensor:m_vacuum(inHg)=8.94587941391941         107.652 secs ago
+   sensor:m_water_vx(m/s)=-0.048407079676579      168.625 secs ago
+   sensor:m_water_vy(m/s)=-0.171792344224897      168.629 secs ago
+   sensor:u_alt_min_depth(m)=2                     1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=5944.71              1e+308 secs ago
+   sensor:x_last_wpt_lon(lon)=2314.05              1e+308 secs ago
+  4942    No login script found for processing.
+:OOD:digifin_mgr_ctrl:OUT OF DEADBAND: M_FIN:0.1447 C_FIN:0.0000
+
+
+
+
+Glider koskelo at surface.
+Because:pitch not commanded [behavior surface_4 start_when = 2.0]
+MissionName:drifttst.mi MissionNum:koskelo-2023-313-2-0 (0173.0000)
+Vehicle Name: koskelo
+Curr Time: Fri Nov 10 15:17:00 2023 MT:    4966
+DR  Location:  5944.432 N  2313.894 E measured    188.011 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  5944.468 N  2314.109 E measured    285.111 secs ago
+GPS Location:  5944.432 N  2313.894 E measured    190.076 secs ago
+   sensor:c_autoballast_state(enum)=0              1e+308 secs ago
+   sensor:c_climb_bpump(X)=1000                    1e+308 secs ago
+   sensor:c_dive_bpump(X)=-1000                    1e+308 secs ago
+   sensor:c_iridium_current_num(enum)=0            1e+308 secs ago
+   sensor:c_wpt_lat(lat)=5944.71                  4927.63 secs ago
+   sensor:c_wpt_lon(lon)=2314.05                  4927.64 secs ago
+   sensor:m_battery(volts)=16.2699183023881        54.478 secs ago
+   sensor:m_bms_aft_current(amp)=0.204376           3.422 secs ago
+   sensor:m_bms_ebay_current(amp)=-0.000937         3.453 secs ago
+   sensor:m_bms_pitch_current(amp)=0.171248         3.484 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=9.863656         3.341 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=10.149908        3.345 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1021        3.571 secs ago
+   sensor:m_iridium_attempt_num(nodim)=4           58.807 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5        46.82 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.47851037851038       50.551 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.48150183150183       50.516 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=2.48235653235653        50.48 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=95.2791125581396        3.375 secs ago
+   sensor:m_tot_num_inflections(nodim)=9648       308.123 secs ago
+   sensor:m_vacuum(inHg)=8.9323643956044            7.143 secs ago
+   sensor:m_water_vx(m/s)=-0.048407079676579      192.118 secs ago
+   sensor:m_water_vy(m/s)=-0.171792344224897      192.122 secs ago
+   sensor:u_alt_min_depth(m)=2                     1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=5944.71              1e+308 secs ago
+   sensor:x_last_wpt_lon(lon)=2314.05              1e+308 secs ago
+devices:(t/m/s) errs:   0/   0/   0 warn:  10/   0/   0 odd:  85/   8/   8
+ABORT HISTORY: total since reset: 0
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                               ... communications ready for consci.
+
+Water Velocity Calculations COMPLETE
+Waypoint: (5944.7100,2314.0500) Range: 536m, Bearing: 6deg, Age: 1:22h:m
+Time until diving is: 108 secs
+:OOD:digifin_mgr_ctrl:OUT OF DEADBAND: M_FIN:0.1882 C_FIN:0.0000
+^EExtending surface time by 5 minutes
+
+
+I heard a character ('CR'), but not the right one
+There were no pending chars in input buffer to drain.
+^EExtending surface time by 5 minutes
+
+
+I heard a character ('CR'), but not the right one
+There were no pending chars in input buffer to drain.
+^EExtending surface time by 5 minutes
+
+
+I heard a character ('CR'), but not the right one
+There were no pending chars in input buffer to drain.
+:OOD:digifin_mgr_ctrl:OUT OF DEADBAND: M_FIN:0.1534 C_FIN:0.0000
+
+
+
+
+Glider koskelo at surface.
+Because:pitch not commanded [behavior surface_4 start_when = 2.0]
+MissionName:drifttst.mi MissionNum:koskelo-2023-313-2-0 (0173.0000)
+Vehicle Name: koskelo
+Curr Time: Fri Nov 10 15:18:01 2023 MT:    5028
+DR  Location:  5944.432 N  2313.894 E measured    249.441 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  5944.468 N  2314.109 E measured    346.541 secs ago
+GPS Location:  5944.432 N  2313.894 E measured    251.506 secs ago
+   sensor:c_autoballast_state(enum)=0              1e+308 secs ago
+   sensor:c_climb_bpump(X)=1000                    1e+308 secs ago
+   sensor:c_dive_bpump(X)=-1000                    1e+308 secs ago
+   sensor:c_iridium_current_num(enum)=0            1e+308 secs ago
+   sensor:c_wpt_lat(lat)=5944.71                  4989.06 secs ago
+   sensor:c_wpt_lon(lon)=2314.05                  4989.07 secs ago
+   sensor:m_battery(volts)=16.2683799520027        52.654 secs ago
+   sensor:m_bms_aft_current(amp)=0.223124           3.412 secs ago
+   sensor:m_bms_ebay_current(amp)=-0.000937         3.443 secs ago
+   sensor:m_bms_pitch_current(amp)=0.189372         3.475 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=9.871224         3.331 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=10.157476        3.335 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1021        7.566 secs ago
+   sensor:m_iridium_attempt_num(nodim)=0            12.08 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       108.25 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.47872405372405       48.749 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.48147130647131       48.714 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=2.48223443223443       48.678 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=95.2755925581396        3.365 secs ago
+   sensor:m_tot_num_inflections(nodim)=9648       369.553 secs ago
+   sensor:m_vacuum(inHg)=8.9323643956044           68.573 secs ago
+   sensor:m_water_vx(m/s)=-0.048407079676579      253.548 secs ago
+   sensor:m_water_vy(m/s)=-0.171792344224897      253.552 secs ago
+   sensor:u_alt_min_depth(m)=2                     1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=5944.71              1e+308 secs ago
+   sensor:x_last_wpt_lon(lon)=2314.05              1e+308 secs ago
+devices:(t/m/s) errs:   0/   0/   0 warn:  10/   0/   0 odd:  85/   8/   8
+ABORT HISTORY: total since reset: 0
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                               ... communications ready for consci.
+
+Water Velocity Calculations COMPLETE
+Waypoint: (5944.7100,2314.0500) Range: 536m, Bearing: 6deg, Age: 1:23h:m
+Time until diving is: 946 secs
+!dockzs -num=3
+not executable within a mission
+  5051 60 ERROR behavior surface_4: ! FAILED: dockzs -num=3
+
+  5051    behavior surface_4: SUBSTATE 7 ->7 : After ! command, waiting for control-C to exit/resume
+:OOD:digifin_mgr_ctrl:OUT OF DEADBAND: M_FIN:-0.0289 C_FIN:0.0000
+
+
+
+
+Glider koskelo at surface.
+Because:pitch not commanded [behavior surface_4 start_when = 2.0]
+MissionName:drifttst.mi MissionNum:koskelo-2023-313-2-0 (0173.0000)
+Vehicle Name: koskelo
+Curr Time: Fri Nov 10 15:19:02 2023 MT:    5088
+DR  Location:  5944.432 N  2313.894 E measured    309.496 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  5944.468 N  2314.109 E measured    406.596 secs ago
+GPS Location:  5944.432 N  2313.894 E measured    311.561 secs ago
+   sensor:c_autoballast_state(enum)=0              1e+308 secs ago
+   sensor:c_climb_bpump(X)=1000                    1e+308 secs ago
+   sensor:c_dive_bpump(X)=-1000                    1e+308 secs ago
+   sensor:c_iridium_current_num(enum)=0            1e+308 secs ago
+   sensor:c_wpt_lat(lat)=5944.71                  5049.12 secs ago
+   sensor:c_wpt_lon(lon)=2314.05                  5049.12 secs ago
+   sensor:m_battery(volts)=16.2692088676694        51.339 secs ago
+   sensor:m_bms_aft_current(amp)=0.192188           3.422 secs ago
+   sensor:m_bms_ebay_current(amp)=-0.000937         3.453 secs ago
+   sensor:m_bms_pitch_current(amp)=0.165936         3.485 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=9.877576         3.341 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=10.163828        3.345 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1021        3.571 secs ago
+   sensor:m_iridium_attempt_num(nodim)=0           72.134 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5      168.305 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.47869352869353       47.263 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.48125763125763       47.228 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=2.48165445665446       47.192 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=95.2726381395349        3.375 secs ago
+   sensor:m_tot_num_inflections(nodim)=9648       429.608 secs ago
+   sensor:m_vacuum(inHg)=8.93135076923077           7.272 secs ago
+   sensor:m_water_vx(m/s)=-0.048407079676579      313.603 secs ago
+   sensor:m_water_vy(m/s)=-0.171792344224897      313.607 secs ago
+   sensor:u_alt_min_depth(m)=2                     1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=5944.71              1e+308 secs ago
+   sensor:x_last_wpt_lon(lon)=2314.05              1e+308 secs ago
+devices:(t/m/s) errs:   0/   0/   0 warn:  10/   0/   0 odd:  85/   8/   8
+ABORT HISTORY: total since reset: 0
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                               ... communications ready for consci.
+
+Water Velocity Calculations COMPLETE
+Waypoint: (5944.7100,2314.0500) Range: 536m, Bearing: 6deg, Age: 1:24h:m
+Time until diving is: 1164 secs
+!s *.scd -num=3
+not executable within a mission
+  5115 75 ERROR behavior surface_4: ! FAILED: s *.scd -num=3
+
+  5115    behavior surface_4: SUBSTATE 7 ->7 : After ! command, waiting for control-C to exit/resume
+:OOD:digifin_mgr_ctrl:OUT OF DEADBAND: M_FIN:-0.0897 C_FIN:0.0000
+^C  5131 79 behavior surface_4: User Hit a Control-C, terminating the mission
+  5131    behavior surface_4: STATE Active -> Mission Complete
+
+  5131    behavior ?_-1: layered_control(): Mission completed normally
+  5131    behavior ?_-1: run_mission(): Mission completed: MS_COMPLETED_NORMALLY(-1)
+
+Vehicle Name: koskelo
+Mission Name:   drifttst.mi
+Mission Number: koskelo-2023-313-2-0 (0173.0000)
+post_mission_cleanup(): End of Mission
+timestamp: Fri Nov 10 15:19:46 2023
+  5132    01730000.mcg LOG FILE CLOSED
+timestamp: Fri Nov 10 15:19:51 2023
+Mission completed normally
+Mission end: grun_mission() drifttst.mi koskelo-2023-313-2-0 (0173.0000)
+SEQUENCE: drifttst.mi koskelo-2023-313-2-0 (0173.0000) completed normally
+
+
+
+Vehicle Name: koskelo
+SEQUENCE: About to run vm2023.mi on try 0
+    You have 120 seconds to type a control-C to terminate the sequence.
+    The control-P character immediately starts the mission.
+    All other characters are ignored.
+^@
+I heard a keystroke ('NUL'), but not the right one!
+There were no pending chars in input buffer to drain.
+
+
+
+Vehicle Name: koskelo
+SEQUENCE: About to run vm2023.mi on try 0
+    You have 120 seconds to type a control-C to terminate the sequence.
+    The control-P character immediately starts the mission.
+    All other characters are ignored.
+:OOD:digifin_mgr_ctrl:OUT OF DEADBAND: M_FIN:0.0405 C_FIN:0.0000
+^C
+Heard a Control-C, terminating the sequence

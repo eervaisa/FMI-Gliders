@@ -1,0 +1,100 @@
+Connection Event: Carrier Detect found. 16740    Iridium console active and ready...
+Vehicle Name: uivelo
+Curr Time: Thu Nov  9 13:20:33 2023 MT:   16739
+DR  Location:  5949.175 N  2317.987 E measured    969.394 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  5949.177 N  2317.998 E measured    1048.94 secs ago
+GPS Location:  5949.175 N  2317.987 E measured    971.841 secs ago
+   sensor:c_autoballast_state(enum)=0              1e+308 secs ago
+   sensor:c_climb_bpump(X)=1000                    1e+308 secs ago
+   sensor:c_dive_bpump(X)=-1000                    1e+308 secs ago
+   sensor:c_iridium_current_num(enum)=0           4197.88 secs ago
+   sensor:c_wpt_lat(lat)=5949.17                   1642.5 secs ago
+   sensor:c_wpt_lon(lon)=2318                     1642.55 secs ago
+   sensor:m_battery(volts)=12.1368306749727         4.571 secs ago
+   sensor:m_bms_aft_current(amp)=0                 1e+308 secs ago
+   sensor:m_bms_ebay_current(amp)=0                1e+308 secs ago
+   sensor:m_bms_pitch_current(amp)=0               1e+308 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=2.12800002098083       4.84 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=200.795556520979      4.854 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1023       0.91 secs ago
+   sensor:m_iridium_attempt_num(nodim)=3           46.291 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       17.233 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.48232600732601     29.918 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.47905982905983     29.936 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=-1      5.098 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=72.1117282609751      5.103 secs ago
+   sensor:m_tot_num_inflections(nodim)=5055       1054.39 secs ago
+   sensor:m_vacuum(inHg)=8.31061446886447           5.101 secs ago
+   sensor:m_water_vx(m/s)=-0.0323405250031222     979.723 secs ago
+   sensor:m_water_vy(m/s)=-0.023029588887329      979.755 secs ago
+   sensor:u_alt_min_depth(m)=2                     1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=5949.17             1643.52 secs ago
+   sensor:x_last_wpt_lon(lon)=2317.89             1643.55 secs ago
+ 16742    No login script found for processing.
+
+
+I heard a keystroke ('LF'), but not the right one!
+There were no pending chars in input buffer to drain.
+
+
+
+SEQUENCE: About to run lastgasp.mi on try 0
+    You have 120 seconds to type a control-C to terminate the sequence.
+    The control-P character immediately starts the mission.
+    All other characters are ignored.
+
+
+I heard a keystroke ('LF'), but not the right one!
+There were no pending chars in input buffer to drain.
+
+
+
+SEQUENCE: About to run lastgasp.mi on try 0
+    You have 120 seconds to type a control-C to terminate the sequence.
+    The control-P character immediately starts the mission.
+    All other characters are ignored.
+w
+I heard a keystroke ('w'), but not the right one!
+There were no pending chars in input buffer to drain.
+
+
+
+SEQUENCE: About to run lastgasp.mi on try 0
+    You have 120 seconds to type a control-C to terminate the sequence.
+    The control-P character immediately starts the mission.
+    All other characters are ignored.
+h
+I heard a keystroke ('h'), but not the right one!
+There were no pending chars in input buffer to drain.
+
+
+
+SEQUENCE: About to run lastgasp.mi on try 0
+    You have 120 seconds to type a control-C to terminate the sequence.
+    The control-P character immediately starts the mission.
+    All other characters are ignored.
+?
+I heard a keystroke ('?'), but not the right one!
+Drained the following 3 pending chars from input buffer:
+65 72 65                      e   r   e                           ere     
+
+
+
+SEQUENCE: Running lastgasp.mi on try 0
+SEQUENCE: Forcing use of critical devices
+Starting Mission: lastgasp.mi
+timestamp: Thu Nov  9 13:21:24 2023
+The instantaneous lag time between the system and gps clock is -2.0 seconds.
+The average lag time between the system and gps clock is -2.1 seconds.
+timestamp: Thu Nov  9 13:21:24 2023
+load_mission(): Opening Mission file: lastgasp.mi
+Vehicle Name: uivelo
+Curr Time: Thu Nov  9 13:21:25 2023 MT:   16790
+DR  Location:  5949.175 N  2317.987 E measured     1020.8 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  5949.177 N  2317.998 E measured    1100.34 secs ago
+GPS Location:  5949.175 N  2317.987 E measured    1023.25 secs ago
+   sensor:c_autoballast_state(enum)=0              1e+308 secs ago
+  

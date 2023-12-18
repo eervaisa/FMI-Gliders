@@ -1,0 +1,157 @@
+Connection Event: Carrier Detect found.  7258    Iridium console active and ready...
+Vehicle Name: koskelo
+Curr Time: Thu Nov  9 15:42:04 2023 MT:    7258
+DR  Location:  5948.720 N  2317.718 E measured     44.579 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  5948.667 N  2317.788 E measured    139.621 secs ago
+GPS Location:  5948.720 N  2317.718 E measured     44.782 secs ago
+   sensor:c_autoballast_state(enum)=0              1e+308 secs ago
+   sensor:c_climb_bpump(X)=1000                    1e+308 secs ago
+   sensor:c_dive_bpump(X)=-1000                    1e+308 secs ago
+   sensor:c_iridium_current_num(enum)=1           2048.88 secs ago
+   sensor:c_wpt_lat(lat)=5948.16                  516.726 secs ago
+   sensor:c_wpt_lon(lon)=2316.71                   516.73 secs ago
+   sensor:m_battery(volts)=16.3721177011365         7.781 secs ago
+   sensor:m_bms_aft_current(amp)=0.235312           3.932 secs ago
+   sensor:m_bms_ebay_current(amp)=-0.000937         3.963 secs ago
+   sensor:m_bms_pitch_current(amp)=0.203752         3.995 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=2.279976         3.851 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=2.566228        3.855 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1022        4.081 secs ago
+   sensor:m_iridium_attempt_num(nodim)=1           40.074 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       28.088 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.47869352869353       15.819 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.48141025641026       15.784 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=2.48247863247863       15.748 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=98.8064055813954        3.885 secs ago
+   sensor:m_tot_num_inflections(nodim)=9434       168.692 secs ago
+   sensor:m_vacuum(inHg)=8.41642857142858          59.798 secs ago
+   sensor:m_water_vx(m/s)=-0.000730100952396       48.685 secs ago
+   sensor:m_water_vy(m/s)=-0.06752427960983        48.689 secs ago
+   sensor:u_alt_min_depth(m)=2                     1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=5948.73             516.814 secs ago
+   sensor:x_last_wpt_lon(lon)=2317.78             516.818 secs ago
+  7259    No login script found for processing.
+
+
+
+
+Glider koskelo at surface.
+Because:pitch not commanded [behavior surface_4 start_when = 2.0]
+MissionName:tvr20233.mi MissionNum:koskelo-2023-312-4-5 (0170.0005)
+Vehicle Name: koskelo
+Curr Time: Thu Nov  9 15:42:21 2023 MT:    7275
+DR  Location:  5948.720 N  2317.718 E measured     60.886 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  5948.667 N  2317.788 E measured    155.927 secs ago
+GPS Location:  5948.720 N  2317.718 E measured     61.089 secs ago
+   sensor:c_autoballast_state(enum)=0              1e+308 secs ago
+   sensor:c_climb_bpump(X)=1000                    1e+308 secs ago
+   sensor:c_dive_bpump(X)=-1000                    1e+308 secs ago
+   sensor:c_iridium_current_num(enum)=1           2065.19 secs ago
+   sensor:c_wpt_lat(lat)=5948.16                  533.033 secs ago
+   sensor:c_wpt_lon(lon)=2316.71                  533.037 secs ago
+   sensor:m_battery(volts)=16.3721177011365        24.088 secs ago
+   sensor:m_bms_aft_current(amp)=0.280624           3.422 secs ago
+   sensor:m_bms_ebay_current(amp)=-0.00125          3.452 secs ago
+   sensor:m_bms_pitch_current(amp)=0.245624         3.484 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=2.282472         3.341 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=2.568724        3.345 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1018        3.571 secs ago
+   sensor:m_iridium_attempt_num(nodim)=1           56.381 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       44.395 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.47869352869353       32.126 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.48141025641026        32.09 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=2.48247863247863       32.055 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=98.8052446511628        3.375 secs ago
+   sensor:m_tot_num_inflections(nodim)=9434       184.999 secs ago
+   sensor:m_vacuum(inHg)=8.41642857142858          76.104 secs ago
+   sensor:m_water_vx(m/s)=-0.000730100952396       64.991 secs ago
+   sensor:m_water_vy(m/s)=-0.06752427960983        64.995 secs ago
+   sensor:u_alt_min_depth(m)=2                     1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=5948.73              533.12 secs ago
+   sensor:x_last_wpt_lon(lon)=2317.78             533.124 secs ago
+devices:(t/m/s) errs:   0/   0/   0 warn:   1/   1/   0 odd:  22/   4/   0
+ABORT HISTORY: total since reset: 0
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                               ... communications ready for consci.
+
+Water Velocity Calculations COMPLETE
+Waypoint: (5948.1600,2316.7100) Range: 1403m, Bearing: 213deg, Age: 0:8h:m
+Time until diving is: 235 secs
+:OOD:digifin_mgr_ctrl:OUT OF DEADBAND: M_FIN:0.1766 C_FIN:0.0000
+s *.scd *.tcd -num=3
+
+--------------------------------
+  7295 38 01700005.mcg LOG FILE CLOSED
+SCIENCE DATA LOGGING: science IS running
+CONSCI REQUESTED (using IRIDIUM as console)
+ASKING SCIENCE COMPUTER TO SWITCH TO COMMAND MODE via IRIDIUM
+SWITCHING TO SCIENCE COMMAND MODE over IRIDIUM
+Normal operation resumes when:
+    SciDos> QUIT              -or-
+    Lose CD (unplug freewave/hangup iridium) -or-
+    run longer than U_SCI_CMD_MAX_CONSCI_TIME(3600)s
+  7304 41 Neutering the Freewave Console
+SCI: Implicitly limiting total transfer to 1800 secs, representing 180 KB total size
+SCI: Enumerating and selecting files
+About to send 3 files
+Prechecking is not necessary for this invocation
+START
+**B00000000000000
+Starting zModem transfer of 01700005.tcd to/from koskelo size is 424
+Total Bytes sent/received: 424
+zModem transfer DONE for file 01700005.tcd
+
+Starting zModem transfer of 01700004.tcd to/from koskelo size is 366
+Total Bytes sent/received: 366
+zModem transfer DONE for file 01700004.tcd
+
+Starting zModem transfer of 01700000.tcd to/from koskelo size is 424
+Total Bytes sent/received: 424
+zModem transfer DONE for file 01700000.tcd
+ 7333 48 Freewave console restored
+REVERTING FROM SCIENCE COMMAND MODE
+SCIENCE COMMAND MODE TERMINATED because:
+   Science Program QUIT (cts lowered)
+  7335    GLD: Enumerating and selecting files
+**^XB0800000000022d
+DEL**^XB0800000000022d
+DELAbout to send 3 files
+Prechecking is not necessary for this invocation
+selected IRIDIUM
+  7335    save_and_change_sensors()....
+          Changed u_use_ctd_depth_for_flying from 0 to 0
+          Changed c_science_on from 1 to 0
+  7335    save_and_change_sensors()....
+          Changed c_science_printout from 0 to 0
+Waiting for motors idle
+START
+**B00000000000000
+Starting zModem transfer of 01700005.scd to/from koskelo size is 16100
+Total Bytes sent/received: 1024
+Total Bytes sent/received: 2048
+Total Bytes sent/received: 3072
+Total Bytes sent/received: 4096
+Total Bytes sent/received: 5120
+Total Bytes sent/received: 6144
+Total Bytes sent/received: 7168
+Total Bytes sent/received: 8192
+Total Bytes sent/received: 9216
+Total Bytes sent/received: 10240
+Total Bytes sent/received: 11264
+Total Bytes sent/received: 12288
+Total Bytes sent/received: 13312
+Total Bytes sent/received: 14336
+Total Bytes sent/received: 15360

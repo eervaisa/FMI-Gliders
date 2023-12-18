@@ -1,0 +1,69 @@
+sensor: m_present_time(timestamp) 0    # out, secs since 1970 @ start of cycle
+sensor: m_mission_start_time(timestamp) 0  # out, secs since 1970 @ start of mission
+sensor: m_present_secs_into_mission(sec) 0 # out, secs since mission started
+sensor: x_yo_active(nodim)
+sensor: x_surface_active(nodim)               0      # (>0 means active) set to the surface behavior id that is active.
+sensor: x_climb_surface(nodim)               0       # out, the state if autoballast is enabled and we are climbing
+sensor: m_surface_bpump(cc) 0  
+sensor: m_depth_surface_activated(m) 0
+sensor: m_surface_depth_reached(bool)       0 #  True if we've reached u_reqd_depth_at_surface.
+sensor: m_surfacing(bool)                   0 #  Set true while approaching surface
+sensor: c_pitch(rad) 0 # out, commanded pitch, <0 to dive
+sensor: c_heading(rad) 0   # out, commanded heading
+sensor: m_depth_rate(m/s)              0    # out, rate of change of depth, >0 is down
+sensor: m_avg_depth_rate(m/s)          0    # out, avg rate of change of depth, >0 is down
+sensor: m_altitude(m)        0 # out, height above the bottom
+sensor: m_aground_water_depth(m) -1 # out, set by behavior dive_to when it crashes
+sensor: m_water_depth(m)  -1.0  # out, m_depth + m_altitude.
+sensor: m_speed(m/s)  0           # out, vehicle horizontal speed THRU WATER
+sensor: m_vx_lmc(m/s) 0  # out, vehicle horizontal velocity OVER GROUND
+sensor: m_vy_lmc(m/s) 0
+sensor: m_water_vx(m/s)  0 # in/out How fast the water is going. LMC coord. sys.
+sensor: m_water_vy(m/s)  0 #    used as input here (if u_use_current_correction is true)
+sensor: m_final_water_vx(m/s) 0 # out, initial computation of m_water_vx/y
+sensor: m_final_water_vy(m/s) 0 #
+sensor: m_dr_time(sec)      -1.0    # out, how long underwater, subject to currents
+sensor: m_dr_surf_x_lmc(m)   0      #      Dead Reckoned location when surface
+sensor: m_dr_surf_y_lmc(m)   0
+sensor: m_dr_fix_time(sec)  -1.0    # out, surface drift time til first gps fix
+sensor: m_gps_fix_x_lmc(m)   0      #      location of first gps fix
+sensor: m_gps_fix_y_lmc(m)   0
+sensor: m_dr_x_ta_postfix_drift(m) 0     # out, m_dr_x/y_postfix_drift * time adjusted value
+sensor: m_dr_y_ta_postfix_drift(m) 0
+sensor: m_lat(lat)   69696969  # vehicle position in latitude
+sensor: m_lon(lon)   69696969  # vehicle position in longitude
+sensor: c_wpt_lat(lat) 0 # current waypoint in latitude
+sensor: c_wpt_lon(lon) 0 # current waypoint in longitude
+sensor: m_inflection_max_depth(m) # out, how deep we get on the inflection
+sensor: x_are_motors_moving(bool) 0   # out, t-> any motor is moving
+sensor: x_are_pumping(bool) 0 
+sensor: m_ballast_pumped(cc)        #out,
+sensor: m_is_ballast_pump_moving(bool) 0   # out, t-> motor is moving
+sensor: m_ballast_pumped_vel(cc/sec)     0   # out, measured motor speed
+sensor: c_battpos(in) 0   # in, >0 vehicle dives (nose down)
+sensor: m_battpos(in)     # out
+sensor: m_is_battpos_moving(bool) 0   # out, t-> motor is moving
+sensor: m_is_fin_moving(bool) 0   # out, t-> motor is moving
+sensor: m_fin_vel(rad/sec)    0  # out, measured motor velocity
+sensor: m_roll(rad) 0          # out, >0 is port wing up
+sensor: m_pitch(rad) 0         # out, >0 is nose up
+sensor: m_heading(rad) 0       # out
+sensor: m_vehicle_temp(degC) 0 # out
+sensor: m_pressure(bar)           # out, measured NOT clipped:
+sensor: m_depth(m) 0
+sensor: m_raw_altitude(m) # out, height above bottom, unfiltered
+sensor: m_air_pump(bool) 0   # out, whether it is on or not
+sensor: m_air_fill(bool) 0   # out, T->air pump solenoid in fill position
+sensor: m_gps_lat(lat) 69696969  # out  DDMM.MMMM   >0 ==> North   <0 ==> South
+sensor: m_gps_lon(lon) 69696969  # out  DDMM.MMMM   >0 ==> East    <0 ==> West
+sensor: m_water_cond(S/m) 3       # out, conductivity
+sensor: m_water_temp(degC) 10     # out
+sensor: m_water_pressure(bar) 0   # out
+sensor: m_thruster_current(amp) 0 # Out, measured current.
+sensor: m_thruster_power(watt) 0 #Out m_thruster_voltage * m_thruster_current
+sensor: sci_m_present_time(timestamp) 0 # In, written by science on every cycle
+sensor: sci_m_present_secs_into_mission(sec) 0 # out, secs since mission started
+sensor: sci_water_cond(S/m) 3              # out, conductivity    f#=1
+sensor: sci_water_temp(degC) 10            # out                  f#=2
+sensor: sci_water_pressure(bar) 0          # out                  f#=3
+sensor: sci_ctd41cp_timestamp(timestamp) 0 # out, secs since 1970 f#=4

@@ -1,0 +1,124 @@
+Connection Event: Carrier Detect found. 13013    Iridium console active and ready...
+Vehicle Name: uivelo
+Curr Time: Thu Nov  9 12:18:26 2023 MT:   13012
+DR  Location:  5949.163 N  2317.879 E measured    535.261 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  5949.182 N  2317.974 E measured    634.648 secs ago
+GPS Location:  5949.163 N  2317.879 E measured    537.692 secs ago
+   sensor:c_autoballast_state(enum)=0              1e+308 secs ago
+   sensor:c_climb_bpump(X)=1000                    1e+308 secs ago
+   sensor:c_dive_bpump(X)=-1000                    1e+308 secs ago
+   sensor:c_iridium_current_num(enum)=0           470.612 secs ago
+   sensor:c_wpt_lat(lat)=5949.17                  731.328 secs ago
+   sensor:c_wpt_lon(lon)=2318                     731.372 secs ago
+   sensor:m_battery(volts)=12.11276249445         480.115 secs ago
+   sensor:m_bms_aft_current(amp)=0                 1e+308 secs ago
+   sensor:m_bms_ebay_current(amp)=0                1e+308 secs ago
+   sensor:m_bms_pitch_current(amp)=0               1e+308 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=1.68268752098083      7.591 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=200.350244020979      7.605 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1023      7.697 secs ago
+   sensor:m_iridium_attempt_num(nodim)=1           44.055 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       15.829 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.48473748473748     488.52 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.47905982905983    488.534 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=-1      7.849 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=72.1735772193085      7.854 secs ago
+   sensor:m_tot_num_inflections(nodim)=5047       643.274 secs ago
+   sensor:m_vacuum(inHg)=7.35420833333334         579.778 secs ago
+   sensor:m_water_vx(m/s)=-0.027311841312162      545.972 secs ago
+   sensor:m_water_vy(m/s)=-0.0262334817001983     546.004 secs ago
+   sensor:u_alt_min_depth(m)=2                     1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=5949.17             732.375 secs ago
+   sensor:x_last_wpt_lon(lon)=2317.89             732.412 secs ago
+ 13014    No login script found for processing.
+Glider-Science software version match: 8.400000
+Science hardware version is 2.000000
+ 13030 17 SCI:PROGLET house_elf begin() called
+ 13031    SCI:   house_elf: Version 1.2
+ 13031    SCI:PROGLET ctd41cp begin() called
+ 13031    SCI:   ctd41cp: Version 0.2
+ 13031    SCI:     ctd41cp:  Will be sending the following data to glider:
+ 13031    SCI:           sci_water_cond(s/m)
+ 13031    SCI:           sci_water_temp(degc)
+ 13031    SCI:           sci_water_pressure(bar)
+ 13031    SCI:           sci_ctd41cp_timestamp(timestamp)
+ 13031    SCI:PROGLET seaOWL begin() called
+ 13031    SCI:   seaOWL: Version 0.1
+ 13032    SCI:     seaOWL:  Will be sending following data to glider:
+ 13032    SCI:           sci_seaowl_chl_scaled(ug/l)
+ 13032    SCI:           sci_seaowl_bb_scaled(nodim)
+ 13032    SCI:           sci_seaowl_fdom_scaled(ppb)
+ 13032    SCI:           sci_seaowl_chl_sig(nodim)
+ 13032    SCI:           sci_seaowl_bb_sig(nodim)
+ 13032    SCI:           sci_seaowl_fdom_sig(nodim)
+ 13032    SCI:           sci_seaowl_timestamp(timestamp)
+ 13032    SCI:           sci_generic_a(nodim)
+ 13032    SCI:           sci_generic_b(nodim)
+ 13032    SCI:           sci_generic_c(nodim)
+ 13033 19 SCI:           sci_generic_d(nodim)
+ 13033    SCI:           sci_generic_e(nodim)
+ 13033    SCI:           sci_generic_f(nodim)
+ 13033    SCI:           sci_generic_g(nodim)
+ 13034    SCI:           sci_generic_h(nodim)
+ 13034    SCI:           sci_generic_i(nodim)
+ 13034    SCI:           sci_generic_j(nodim)
+ 13034    SCI:           sci_generic_k(nodim)
+ 13034    SCI:           sci_generic_l(nodim)
+ 13034    SCI:           sci_generic_m(nodim)
+ 13034    SCI:           sci_generic_n(nodim)
+ 13034    SCI:           sci_generic_o(nodim)
+ 13034    SCI:           sci_generic_p(nodim)
+ 13034    SCI:           sci_generic_q(nodim)
+ 13034    SCI:           sci_generic_r(nodim)
+ 13035    SCI:           sci_generic_s(nodim)
+ 13035    SCI:           sci_generic_t(nodim)
+ 13035    SCI:           sci_generic_u(nodim)
+ 13035    SCI:  Opening Bit(0) for output
+ 13035    SCI:Bit(0) use count is now 1.
+ 13035    SCI:Bit(0) raise count is now 0.
+ 13035    SCI:Bit(0) raise count is now 0.
+ 13035    SCI:PROGLET oxy4 begin() called
+ 13035    SCI:   oxy4: Version 0.0
+ 13035    SCI:     oxy4:  Will be sending following data to glider:
+ 13035    SCI:           sci_oxy4_oxygen(um)
+ 13035    SCI:           sci_oxy4_saturation(%)
+ 13035    SCI:           sci_oxy4_temp(degc)
+ 13036    SCI:           sci_oxy4_calphase(deg)
+ 13036    SCI:           sci_oxy4_tcphase(deg)
+ 13036    SCI:           sci_oxy4_c1rph(deg)
+ 13036    SCI:           sci_oxy4_c2rph(deg)
+ 13036    SCI:           sci_oxy4_c1amp(mv)
+ 13036    SCI:           sci_oxy4_c2amp(mv)
+ 13036    SCI:           sci_oxy4_rawtemp(mv)
+ 13036    SCI:           sci_oxy4_timestamp(timestamp)
+ 13036    SCI:  Opening Bit(2) for output
+ 13036    SCI:Bit(2) use count is now 1.
+ 13036    SCI:Bit(2) raise count is now 0.
+ 13036    SCI:Bit(2) raise count is now 0.
+ 13039 19 SCI:PROGLET house_elf start() called
+ 13039    SCI:       house_elf_run(): 0 error(s) in a row. (5 is fatal)
+ 13039    SCI:       house_elf_run(): 0 error(s) since house_elf_begin(). (50 is fatal)
+ 13040    SCI:PROGLET oxy4 start() called
+ 13040    SCI:  Opening port 1:SBMB:J1
+ 13040    SCI:  9600 baud, N81, line buf: 150, no input data timeout(secs): 60 
+ 13040    SCI:  in queue size: 2048, out queue size: 2048
+ 13040    SCI:sci_uart_drain_input(1):
+ 13040    SCI:
+ 13040    SCI:sci_uart_drain_input:Drained 0 chars
+ 13040    SCI:bit_shared_raise(): Raising bit(2).
+ 13040    SCI:       oxy4_run(): 0 error(s) in a row. (5 is fatal)
+ 13040    SCI:       oxy4_run(): 0 error(s) since oxy4_begin(). (50 is fatal)
+ 13040    SCI:PROGLET ctd41cp start() called
+ 13041    SCI:  Opening port 0:SBMB:J0
+ 13041    SCI:  9600 baud, N81, line buf: 50, no input data timeout(secs): 15 
+ 13041    SCI:  in queue size: 2048, out queue size: 0
+ 13041    SCI:sci_uart_drain_input(0):
+ 13041    SCI:
+ 13041    SCI:sci_uart_drain_input:Drained 0 chars
+ 13045 21 SCI:bit_shared_open(): bit(0) is already open.
+ 13045    SCI:Bit(0) use count is now 2.
+ 13045    SCI:bit_shared_raise(): Raising bit(0).
+ 13046    SCI:       ctd41cp_run(): 0 error(s) in a row. (5 is fatal)
+ 13046    SCI:       ctd41cp_run(): 0 error(s) since ctd41cp_begin(). (50 is fatal)

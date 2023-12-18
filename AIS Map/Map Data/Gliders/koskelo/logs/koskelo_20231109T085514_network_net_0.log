@@ -1,0 +1,92 @@
+38.59    Iridium console active and ready...
+Vehicle Name: koskelo
+Curr Time: Thu Nov  9 08:54:58 2023 MT:     238
+DR  Location:  5948.971 N  2317.866 E measured       0.51 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  5948.968 N  2317.879 E measured      84.52 secs ago
+GPS Location:  5948.970 N  2317.866 E measured     44.016 secs ago
+   sensor:c_autoballast_state(enum)=0              1e+308 secs ago
+   sensor:c_climb_bpump(X)=1000                    1e+308 secs ago
+   sensor:c_dive_bpump(X)=-1000                    1e+308 secs ago
+   sensor:c_iridium_current_num(enum)=0            1e+308 secs ago
+   sensor:c_wpt_lat(lat)=0                         1e+308 secs ago
+   sensor:c_wpt_lon(lon)=0                         1e+308 secs ago
+   sensor:m_battery(volts)=16.4246055066584         3.733 secs ago
+   sensor:m_bms_aft_current(amp)=0.196564           3.921 secs ago
+   sensor:m_bms_ebay_current(amp)=-0.000625         3.952 secs ago
+   sensor:m_bms_pitch_current(amp)=0.1725           3.984 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=0.0575           3.841 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=0.343751999999999        3.845 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1022        0.072 secs ago
+   sensor:m_iridium_attempt_num(nodim)=2           36.304 secs ago
+   sensor:m_iridium_signal_strength(nodim)=3       24.246 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.47484737484737        3.628 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.4778083028083        3.592 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=2.47872405372405        3.557 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=99.8401153488372        3.875 secs ago
+   sensor:m_tot_num_inflections(nodim)=9374        89.729 secs ago
+   sensor:m_vacuum(inHg)=8.41338769230769           3.742 secs ago
+   sensor:m_water_vx(m/s)=-0.20328903107597        40.905 secs ago
+   sensor:m_water_vy(m/s)=0.007623663192161        40.909 secs ago
+   sensor:u_alt_min_depth(m)=2                     1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=0        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=6042.7021            1e+308 secs ago
+   sensor:x_last_wpt_lon(lon)=2059.9589            1e+308 secs ago
+
+GliderDos N -1 >238.72    No login script found for processing.
+:OOD:digifin_mgr_ctrl:OUT OF DEADBAND: M_FIN:-0.1592 C_FIN:0.0000
+
+
+GliderDos N -1 >
+
+GliderDos N -1 >
+Vehicle Name: koskelo
+371.12 93 GliderDos: No keystroke heard for 60 seconds
+          540 seconds to go before running:SEQUENCE -resume_next
+
+GliderDos N -1 >:OOD:digifin_mgr_ctrl:OUT OF DEADBAND: M_FIN:-0.0463 C_FIN:0.0000
+dir missions
+Directory of c:/missions/
+
+./
+../
+ab_init.mi   498        2022-09-20 14:21:04
+astock.mi    5623       2022-12-13 16:41:00
+attcal.mi    5517       2022-09-20 14:21:04
+bathtub.mi   5764       2022-12-13 17:56:38
+breadcr.mi   8991       2022-09-20 14:21:04
+clrabort.mi  619        2022-09-20 14:21:04
+freewig.mi   6749       2022-09-20 14:21:04
+hold.mi      9142       2022-09-20 14:21:04
+ice.mi       1342       2022-09-20 14:21:04
+ini0.mi      6099       2022-09-20 14:21:04
+initial.mi   7159       2022-09-20 14:21:04
+ini_ice.mi   1318       2022-09-20 14:21:04
+lastgasp.mi  9142       2022-09-20 14:21:04
+loadsim.mi   4950       2022-09-20 14:21:04
+nocop.mi     2175       2022-09-20 14:21:04
+nofly.mi     5806       2022-09-20 14:21:04
+pausehld.mi  7159       2022-09-20 14:21:04
+recov.mi     7675       2022-09-20 14:21:04
+sci_off.mi   365        2022-09-20 14:21:04
+sci_on.mi    362        2022-09-20 14:21:04
+setpitch.mi  414        2022-09-20 14:21:04
+status.mi    1954       2022-09-20 14:21:04
+stock.mi     5538       2022-09-20 14:21:04
+thrstock.mi  6005       2022-09-20 14:21:04
+waterclr.mi  335        2022-09-20 14:21:04
+setba.mi     485        2022-12-13 16:41:02
+tvar2023.mi  6771       2023-09-11 08:45:56
+bs2023.mi    6771       2023-07-25 14:34:28
+sethead.mi   9497       2023-09-12 06:49:30
+smpl2023.mi  7286       2023-09-12 10:51:52
+crcl2023.mi  8168       2023-09-12 11:30:16
+trysmp50.mi  7289       2023-09-15 08:12:00
+trysmp51.mi  7289       2023-09-15 08:12:24
+trysmp52.mi  7288       2023-09-15 08:12:52
+trysmp53.mi  7288       2023-09-15 08:13:18
+trysmp55.mi  7288       2023-09-15 08:13:44
+bs2023sp.mi  7286       2023-09-28 08:00:58
+39 files
+
+GliderDos N -1 >

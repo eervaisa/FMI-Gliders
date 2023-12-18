@@ -1,0 +1,65 @@
+Connection Event: Carrier Detect found. 39594    Iridium console active and ready...
+Vehicle Name: koskelo
+Curr Time: Fri Nov 10 00:41:19 2023 MT:   39594
+DR  Location:  5944.937 N  2314.628 E measured     97.383 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  5944.918 N  2314.598 E measured    185.499 secs ago
+GPS Location:  5944.937 N  2314.628 E measured    100.084 secs ago
+   sensor:c_autoballast_state(enum)=0              1e+308 secs ago
+   sensor:c_climb_bpump(X)=1000                    1e+308 secs ago
+   sensor:c_dive_bpump(X)=-1000                    1e+308 secs ago
+   sensor:c_iridium_current_num(enum)=0            38.874 secs ago
+   sensor:c_wpt_lat(lat)=5944.91                  8403.33 secs ago
+   sensor:c_wpt_lon(lon)=2314.56                  8403.34 secs ago
+   sensor:m_battery(volts)=16.3346896612946         3.772 secs ago
+   sensor:m_bms_aft_current(amp)=0.172188           3.961 secs ago
+   sensor:m_bms_ebay_current(amp)=-0.000937         3.992 secs ago
+   sensor:m_bms_pitch_current(amp)=0.149064         4.023 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=5.219976          3.88 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=5.50622799999998        3.884 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1005        4.111 secs ago
+   sensor:m_iridium_attempt_num(nodim)=1           38.914 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       26.807 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.47710622710623       42.464 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.48037240537241       42.429 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=2.48101343101343       42.394 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=97.4389637209302        3.915 secs ago
+   sensor:m_tot_num_inflections(nodim)=9526       201.496 secs ago
+   sensor:m_vacuum(inHg)=8.919863003663              3.78 secs ago
+   sensor:m_water_vx(m/s)=0.036327012831229       101.489 secs ago
+   sensor:m_water_vy(m/s)=-0.030677276220512      101.493 secs ago
+   sensor:u_alt_min_depth(m)=2                     1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=5944.91              325.68 secs ago
+   sensor:x_last_wpt_lon(lon)=2314.56             325.684 secs ago
+
+GliderDos N -1 > 39595    No login script found for processing.
+
+I heard NO chars, starting the sequence
+
+
+
+SEQUENCE: Running vm2023.mi on try 0
+Starting Mission: vm2023.mi
+timestamp: Fri Nov 10 00:41:51 2023
+load_mission(): Opening Mission file: vm2023.mi
+Setting SENSOR c_science_all_on_enabled(bool) value 1.000000
+Setting SENSOR u_use_ctd_depth_for_flying(bool) value 0.000000
+Setting SENSOR u_use_current_correction(nodim) value 1.000000
+Setting SENSOR m_altitude_rate(m/s) value -1.000000
+Setting SENSOR u_sound_speed(m/s) value 1470.000000
+Setting SENSOR u_max_bottom_slope(m/m) value 3.000000
+Setting SENSOR u_alt_min_depth(m) value 2.000000
+Setting SENSOR u_alt_reduced_usage_mode(bool) value 1.000000
+Setting SENSOR u_max_water_depth_lifetime(yos) value 2.000000
+Vehicle Name: koskelo
+Curr Time: Fri Nov 10 00:41:51 2023 MT:   39623
+DR  Location:  5944.937 N  2314.628 E measured    129.247 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  5944.918 N  2314.598 E measured    217.362 secs ago
+GPS Location:  5944.937 N  2314.628 E measured    131.948 secs ago
+   sensor:c_autoballast_state(enum)=0              1e+308 secs ago
+   sensor:c_climb_bpump(X)=1000                    1e+308 secs ago
+   sensor:c_dive_bpump(X)=-1000                    1e+308 secs ago
+   sensor:c_iridium_current_num(enum)=0            70.738 secs ago
+   sensor:c

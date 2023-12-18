@@ -1,0 +1,9 @@
+Connection Event: Carrier Detect found.  5322    Iridium console active and ready...
+Vehicle Name: koskelo
+Curr Time: Thu Nov  9 15:09:47 2023 MT:    5322
+DR  Location:  5948.690 N  2317.755 E measured    117.319 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  5948.846 N  2317.868 E measured    207.442 secs ago
+GPS Location:  5948.690 N  2317.755 E measured    117.465 secs ago
+   sensor:c_autoballast_state(enum)=0              1e+308 secs ago
+   sensor:c_climb_bpump(X)=1000                

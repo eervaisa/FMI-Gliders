@@ -1,0 +1,187 @@
+Connection Event: Carrier Detect found. 44002    Iridium console active and ready...
+Vehicle Name: koskelo
+Curr Time: Fri Nov 10 12:55:39 2023 MT:   44002
+DR  Location:  5944.307 N  2313.862 E measured    522.048 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  5944.388 N  2313.948 E measured    609.166 secs ago
+GPS Location:  5944.307 N  2313.862 E measured    525.023 secs ago
+   sensor:c_autoballast_state(enum)=0              1e+308 secs ago
+   sensor:c_climb_bpump(X)=1000                    1e+308 secs ago
+   sensor:c_dive_bpump(X)=-1000                    1e+308 secs ago
+   sensor:c_iridium_current_num(enum)=0           22656.6 secs ago
+   sensor:c_wpt_lat(lat)=5944.13                   5998.2 secs ago
+   sensor:c_wpt_lon(lon)=2313.69                   5998.2 secs ago
+   sensor:m_battery(volts)=16.2960782704155         3.772 secs ago
+   sensor:m_bms_aft_current(amp)=0.17906            3.962 secs ago
+   sensor:m_bms_ebay_current(amp)=-0.000937         3.993 secs ago
+   sensor:m_bms_pitch_current(amp)=0.135936         4.024 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=9.12122          3.881 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=9.40747199999996        3.885 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1021        4.112 secs ago
+   sensor:m_iridium_attempt_num(nodim)=2           40.391 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       28.295 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.47759462759463       23.804 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.48070818070818       23.769 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=2.48141025641026       23.734 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=95.624431627907        3.916 secs ago
+   sensor:m_tot_num_inflections(nodim)=9640       622.228 secs ago
+   sensor:m_vacuum(inHg)=8.91952512820513            3.78 secs ago
+   sensor:m_water_vx(m/s)=0.049995950684347       526.154 secs ago
+   sensor:m_water_vy(m/s)=-0.036876590084382      526.158 secs ago
+   sensor:u_alt_min_depth(m)=2                     1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=5944.71             5998.28 secs ago
+   sensor:x_last_wpt_lon(lon)=2314.05             5998.29 secs ago
+
+GliderDos N -1 > 44003    No login script found for processing.
+:OOD:digifin_mgr_ctrl:OUT OF DEADBAND: M_FIN:-0.1129 C_FIN:0.0000
+^C
+Parse error: Command not found
+
+GliderDos N -1 >^C
+Parse error: Command not found
+
+GliderDos N -1 >:OOD:digifin_mgr_ctrl:OUT OF DEADBAND: M_FIN:0.1592 C_FIN:0.0000
+^C
+Parse error: Command not found
+
+GliderDos N -1 >dir
+Directory of c:/missions/
+
+./
+../
+ab_init.mi   498        2022-09-20 14:21:04
+astock.mi    5623       2022-12-13 16:41:00
+attcal.mi    5517       2022-09-20 14:21:04
+bathtub.mi   5764       2022-12-13 17:56:38
+breadcr.mi   8991       2022-09-20 14:21:04
+clrabort.mi  619        2022-09-20 14:21:04
+freewig.mi   6749       2022-09-20 14:21:04
+hold.mi      9142       2022-09-20 14:21:04
+ice.mi       1342       2022-09-20 14:21:04
+ini0.mi      6099       2022-09-20 14:21:04
+initial.mi   7159       2022-09-20 14:21:04
+ini_ice.mi   1318       2022-09-20 14:21:04
+lastgasp.mi  9142       2022-09-20 14:21:04
+loadsim.mi   4950       2022-09-20 14:21:04
+nocop.mi     2175       2022-09-20 14:21:04
+nofly.mi     5806       2022-09-20 14:21:04
+pausehld.mi  7159       2022-09-20 14:21:04
+recov.mi     7675       2022-09-20 14:21:04
+sci_off.mi   365        2022-09-20 14:21:04
+sci_on.mi    362        2022-09-20 14:21:04
+setpitch.mi  414        2022-09-20 14:21:04
+status.mi    1954       2022-09-20 14:21:04
+stock.mi     5538       2022-09-20 14:21:04
+thrstock.mi  6005       2022-09-20 14:21:04
+waterclr.mi  335        2022-09-20 14:21:04
+setba.mi     485        2022-12-13 16:41:02
+tvar2023.mi  6771       2023-09-11 08:45:56
+bs2023.mi    6771       2023-07-25 14:34:28
+sethead.mi   9497       2023-09-12 06:49:30
+smpl2023.mi  7286       2023-09-12 10:51:52
+crcl2023.mi  8168       2023-09-12 11:30:16
+trysmp50.mi  7289       2023-09-15 08:12:00
+trysmp51.mi  7289       2023-09-15 08:12:24
+trysmp52.mi  7288       2023-09-15 08:12:52
+trysmp53.mi  7288       2023-09-15 08:13:18
+trysmp55.mi  7288       2023-09-15 08:13:44
+bs2023sp.mi  7286       2023-09-28 08:00:58
+tvr20233.mi  6771       2023-11-09 08:58:20
+vm2023.mi    6845       2023-11-09 13:04:54
+drifttst2.mi 6724       2023-11-10 12:50:44
+42 files
+
+GliderDos N -1 >:OOD:digifin_mgr_ctrl:OUT OF DEADBAND: M_FIN:-0.1216 C_FIN:0.0000
+rename drifttst2.mi drifttst.mi
+moved 1 files
+
+GliderDos N -1 >dir
+Directory of c:/missions/
+
+./
+../
+ab_init.mi   498        2022-09-20 14:21:04
+astock.mi    5623       2022-12-13 16:41:00
+attcal.mi    5517       2022-09-20 14:21:04
+bathtub.mi   5764       2022-12-13 17:56:38
+breadcr.mi   8991       2022-09-20 14:21:04
+clrabort.mi  619        2022-09-20 14:21:04
+freewig.mi   6749       2022-09-20 14:21:04
+hold.mi      9142       2022-09-20 14:21:04
+ice.mi       1342       2022-09-20 14:21:04
+ini0.mi      6099       2022-09-20 14:21:04
+initial.mi   7159       2022-09-20 14:21:04
+ini_ice.mi   1318       2022-09-20 14:21:04
+lastgasp.mi  9142       2022-09-20 14:21:04
+loadsim.mi   4950       2022-09-20 14:21:04
+nocop.mi     2175       2022-09-20 14:21:04
+nofly.mi     5806       2022-09-20 14:21:04
+pausehld.mi  7159       2022-09-20 14:21:04
+recov.mi     7675       2022-09-20 14:21:04
+sci_off.mi   365        2022-09-20 14:21:04
+sci_on.mi    362        2022-09-20 14:21:04
+setpitch.mi  414        2022-09-20 14:21:04
+status.mi    1954       2022-09-20 14:21:04
+stock.mi     5538       2022-09-20 14:21:04
+thrstock.mi  6005       2022-09-20 14:21:04
+waterclr.mi  335        2022-09-20 14:21:04
+setba.mi     485        2022-12-13 16:41:02
+tvar2023.mi  6771       2023-09-11 08:45:56
+bs2023.mi    6771       2023-07-25 14:34:28
+sethead.mi   9497       2023-09-12 06:49:30
+smpl2023.mi  7286       2023-09-12 10:51:52
+crcl2023.mi  8168       2023-09-12 11:30:16
+trysmp50.mi  7289       2023-09-15 08:12:00
+trysmp51.mi  7289       2023-09-15 08:12:24
+trysmp52.mi  7288       2023-09-15 08:12:52
+trysmp53.mi  7288       2023-09-15 08:13:18
+trysmp55.mi  7288       2023-09-15 08:13:44
+bs2023sp.mi  7286       2023-09-28 08:00:58
+tvr20233.mi  6771       2023-11-09 08:58:20
+vm2023.mi    6845       2023-11-09 13:04:54
+drifttst.mi  6724       2023-11-10 12:56:50
+42 files
+
+GliderDos N -1 >
+Vehicle Name: koskelo
+ 44080 32 GliderDos: No keystroke heard for 0 seconds
+          600 seconds to go before running:SEQUENCE -resume_next
+
+GliderDos N -1 >:OOD:digifin_mgr_ctrl:OUT OF DEADBAND: M_FIN:-0.0463 C_FIN:0.0000
+cd ..
+c:/
+
+GliderDos N -1 >run drifttst.mi
+
+Starting Mission: drifttst.mi
+timestamp: Fri Nov 10 12:57:38 2023
+load_mission(): Opening Mission file: drifttst.mi
+ERROR:mbdlist.dat:line51: Unknown sensor for logging:cc_final_depth_state, IGNORED
+        cc_final_depth_state
+Some sensor/interval/state modified when reading from MBD file
+Setting SENSOR c_science_all_on_enabled(bool) value 1.000000
+Setting SENSOR u_use_ctd_depth_for_flying(bool) value 0.000000
+Setting SENSOR u_use_current_correction(nodim) value 1.000000
+Setting SENSOR m_altitude_rate(m/s) value -1.000000
+Setting SENSOR u_sound_speed(m/s) value 1450.000000
+Setting SENSOR u_max_bottom_slope(m/m) value 3.000000
+Setting SENSOR u_alt_min_depth(m) value 2.000000
+Setting SENSOR u_alt_reduced_usage_mode(bool) value 1.000000
+Setting SENSOR u_max_water_depth_lifetime(yos) value 2.000000
+Vehicle Name: koskelo
+Curr Time: Fri Nov 10 12:57:38 2023 MT:   44120
+DR  Location:  5944.307 N  2313.862 E measured    640.457 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  5944.388 N  2313.948 E measured    727.574 secs ago
+GPS Location:  5944.307 N  2313.862 E measured    643.432 secs ago
+   sensor:c_autoballast_state(enum)=0              1e+308 secs ago
+   sensor:c_climb_bpump(X)=1000                    1e+308 secs ago
+   sensor:c_dive_bpump(X)=-1000                    1e+308 secs ago
+   sensor:c_iridium_current_num(enum)=0             22775 secs ago
+   sensor:c_wpt_lat(lat)=5944.13                  6116.61 secs ago
+   sensor:c_wpt_lon(lon)=2313.69                  6116.61 secs ago
+   sensor:m_battery(volts)=16.2885849149392         0.279 secs ago
+   sensor:m_bms_aft_current(amp)=0.156252           0.467 secs ago
+   sensor:m_bms_ebay_current(amp)=-0.000937         0.498 secs ago
+   sensor:m_bms_pitch_current(amp)=0.134684 

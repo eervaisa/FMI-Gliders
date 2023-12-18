@@ -1,0 +1,35 @@
+Connection Event: Carrier Detect found.  1893    Iridium console active and ready...
+Vehicle Name: koskelo
+Curr Time: Fri Nov 10 13:29:14 2023 MT:    1893
+DR  Location:  5944.279 N  2313.827 E measured     72.579 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  5944.397 N  2313.965 E measured    152.723 secs ago
+GPS Location:  5944.279 N  2313.827 E measured     73.711 secs ago
+   sensor:c_autoballast_state(enum)=0              1e+308 secs ago
+   sensor:c_climb_bpump(X)=1000                    1e+308 secs ago
+   sensor:c_dive_bpump(X)=-1000                    1e+308 secs ago
+   sensor:c_iridium_current_num(enum)=0            1e+308 secs ago
+   sensor:c_wpt_lat(lat)=5944.13                  1851.01 secs ago
+   sensor:c_wpt_lon(lon)=2313.69                  1851.01 secs ago
+   sensor:m_battery(volts)=16.2785950225277        39.782 secs ago
+   sensor:m_bms_aft_current(amp)=0.269368           3.931 secs ago
+   sensor:m_bms_ebay_current(amp)=-0.000937         3.962 secs ago
+   sensor:m_bms_pitch_current(amp)=0.204376         3.994 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=9.319952          3.85 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=9.60620399999996        3.854 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1022        4.081 secs ago
+   sensor:m_iridium_attempt_num(nodim)=3           36.084 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       24.079 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.478663003663       39.777 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.48150183150183       39.742 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=2.48208180708181       39.707 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=95.5319981395349        3.884 secs ago
+   sensor:m_tot_num_inflections(nodim)=9644        162.01 secs ago
+   sensor:m_vacuum(inHg)=8.75531765567766           27.79 secs ago
+   sensor:m_water_vx(m/s)=0.07723203261352         76.686 secs ago
+   sensor:m_water_vy(m/s)=-0.001922387234843        76.69 secs ago
+   sensor:u_alt_min_depth(m)=2                     1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=5944.71              1e+308 secs ago
+   sensor:x_last_wpt_lon(lon)=2314.05              1e+308 secs ago
+  1893    No login script found for processing.

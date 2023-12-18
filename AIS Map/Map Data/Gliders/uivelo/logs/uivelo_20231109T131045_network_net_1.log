@@ -1,0 +1,52 @@
+Connection Event: Carrier Detect found. 16142    Iridium console active and ready...
+Vehicle Name: uivelo
+Curr Time: Thu Nov  9 13:10:35 2023 MT:   16141
+DR  Location:  5949.175 N  2317.987 E measured    371.211 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  5949.177 N  2317.998 E measured    450.754 secs ago
+GPS Location:  5949.175 N  2317.987 E measured     373.66 secs ago
+   sensor:c_autoballast_state(enum)=0              1e+308 secs ago
+   sensor:c_climb_bpump(X)=1000                    1e+308 secs ago
+   sensor:c_dive_bpump(X)=-1000                    1e+308 secs ago
+   sensor:c_iridium_current_num(enum)=0           3599.69 secs ago
+   sensor:c_wpt_lat(lat)=5949.17                  1044.32 secs ago
+   sensor:c_wpt_lon(lon)=2318                     1044.36 secs ago
+   sensor:m_battery(volts)=12.1143251611936         4.153 secs ago
+   sensor:m_bms_aft_current(amp)=0                 1e+308 secs ago
+   sensor:m_bms_ebay_current(amp)=0                1e+308 secs ago
+   sensor:m_bms_pitch_current(amp)=0               1e+308 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=2.06981253623962      4.419 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=200.737369036238      4.434 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1023      0.713 secs ago
+   sensor:m_iridium_attempt_num(nodim)=1           40.916 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       12.447 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.48446275946276     48.609 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.47921245421245     48.628 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=-1      4.677 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=72.1198098560781       4.68 secs ago
+   sensor:m_tot_num_inflections(nodim)=5055       456.204 secs ago
+   sensor:m_vacuum(inHg)=8.31600851648352           4.682 secs ago
+   sensor:m_water_vx(m/s)=-0.0323405250031222     381.541 secs ago
+   sensor:m_water_vy(m/s)=-0.023029588887329      381.575 secs ago
+   sensor:u_alt_min_depth(m)=2                     1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=5949.17             1045.33 secs ago
+   sensor:x_last_wpt_lon(lon)=2317.89             1045.37 secs ago
+ 16143    No login script found for processing.
+
+Vehicle Name: uivelo
+Curr Time: Thu Nov  9 13:10:39 2023 MT:   16146
+DR  Location:  5949.175 N  2317.987 E measured     374.57 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  5949.177 N  2317.998 E measured    454.112 secs ago
+GPS Location:  5949.175 N  2317.987 E measured    377.017 secs ago
+ 16317 89 DRIVER_ODDITY:digifin:10216:xxx_ctrl() ran too long
+
+Vehicle Name: uivelo
+ 16390  6 NOTE:GPS fix is getting stale: 621 secs old
+
+Vehicle Name: uivelo
+ 16390    GliderDos: No keystroke heard for 300 seconds
+          300 seconds to go before running:SEQUENCE -resume_next
+
+GliderDos N -1 >

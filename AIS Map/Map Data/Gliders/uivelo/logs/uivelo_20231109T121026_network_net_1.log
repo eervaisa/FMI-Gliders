@@ -1,0 +1,184 @@
+Connection Event: Carrier Detect found. 12523    Iridium console active and ready...
+Vehicle Name: uivelo
+Curr Time: Thu Nov  9 12:10:16 2023 MT:   12522
+DR  Location:  5949.163 N  2317.879 E measured     45.581 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  5949.182 N  2317.974 E measured    144.969 secs ago
+GPS Location:  5949.163 N  2317.879 E measured     48.011 secs ago
+   sensor:c_autoballast_state(enum)=0              1e+308 secs ago
+   sensor:c_climb_bpump(X)=1000                    1e+308 secs ago
+   sensor:c_dive_bpump(X)=-1000                    1e+308 secs ago
+   sensor:c_iridium_current_num(enum)=0           4226.52 secs ago
+   sensor:c_wpt_lat(lat)=5949.17                  241.786 secs ago
+   sensor:c_wpt_lon(lon)=2318                     241.862 secs ago
+   sensor:m_battery(volts)=12.1199648391732        52.669 secs ago
+   sensor:m_bms_aft_current(amp)=0                 1e+308 secs ago
+   sensor:m_bms_ebay_current(amp)=0                1e+308 secs ago
+   sensor:m_bms_pitch_current(amp)=0               1e+308 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=1.61381256580353      5.674 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=200.281369065802      5.695 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1023      5.793 secs ago
+   sensor:m_iridium_attempt_num(nodim)=5           43.613 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       15.277 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.48147130647131      62.68 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.47606837606838     62.704 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=-1      5.999 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=72.1831431853053      6.008 secs ago
+   sensor:m_tot_num_inflections(nodim)=5047       153.946 secs ago
+   sensor:m_vacuum(inHg)=7.35420833333334          90.465 secs ago
+   sensor:m_water_vx(m/s)=-0.027311841312162       56.672 secs ago
+   sensor:m_water_vy(m/s)=-0.0262334817001983      56.713 secs ago
+   sensor:u_alt_min_depth(m)=2                     1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=5949.17             243.151 secs ago
+   sensor:x_last_wpt_lon(lon)=2317.89             243.211 secs ago
+ 12525    No login script found for processing.
+ 12525    DRIVER_ODDITY:iridium:1801:xxx_ctrl() ran 
+<dockserver command="!dockzr -archive *">
+not found>*<
+[dockzr | dockszr] [?][-v N][-nosmartdir][-f rf | irid][-cd dir][-noremove] [-archive]
+  [-d <path1>] <file11> <file12> ... <file1N>
+  [[-d <path2> <file21> <file22> ... <file2N>] ... ]
+</dockserver>
+too long
+
+
+
+
+Glider uivelo at surface.
+Because:pitch not commanded [behavior surface_4 start_when = 2.0]
+MissionName:TVR20233.MI MissionNum:uivelo-2023-312-2-8 (0248.0008)
+Vehicle Name: uivelo
+Curr Time: Thu Nov  9 12:10:30 2023 MT:   12537
+DR  Location:  5949.163 N  2317.879 E measured     59.595 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  5949.182 N  2317.974 E measured    158.982 secs ago
+GPS Location:  5949.163 N  2317.879 E measured     62.025 secs ago
+   sensor:c_autoballast_state(enum)=0              1e+308 secs ago
+   sensor:c_climb_bpump(X)=1000                    1e+308 secs ago
+   sensor:c_dive_bpump(X)=-1000                    1e+308 secs ago
+   sensor:c_iridium_current_num(enum)=0           4240.43 secs ago
+   sensor:c_wpt_lat(lat)=5949.17                  255.665 secs ago
+   sensor:c_wpt_lon(lon)=2318                     255.708 secs ago
+   sensor:m_battery(volts)=12.11276249445           4.452 secs ago
+   sensor:m_bms_aft_current(amp)=0                 1e+308 secs ago
+   sensor:m_bms_ebay_current(amp)=0                1e+308 secs ago
+   sensor:m_bms_pitch_current(amp)=0               1e+308 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=1.61737501621246      4.699 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=200.284931516211      4.712 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1023      9.639 secs ago
+   sensor:m_iridium_attempt_num(nodim)=5           57.335 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       28.986 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.48473748473748     12.858 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.47905982905983     12.873 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=-1      4.958 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=72.1826484005263      4.961 secs ago
+   sensor:m_tot_num_inflections(nodim)=5047       167.613 secs ago
+   sensor:m_vacuum(inHg)=7.35420833333334         104.117 secs ago
+   sensor:m_water_vx(m/s)=-0.027311841312162       70.313 secs ago
+   sensor:m_water_vy(m/s)=-0.0262334817001983      70.344 secs ago
+   sensor:u_alt_min_depth(m)=2                     1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=5949.17             256.715 secs ago
+   sensor:x_last_wpt_lon(lon)=2317.89             256.755 secs ago
+devices:(t/m/s) errs:   0/   0/   0 warn:   2/   2/   0 odd: 254/ 252/  23
+ABORT HISTORY: total since reset: 0
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                               ... communications ready for consci.
+
+Water Velocity Calculations COMPLETE
+Waypoint: (5949.1700,2318.0000) Range: 114m, Bearing: 74deg, Age: 0:4h:m
+Time until diving is: 231 secs
+!put c_iridium_current_num 0
+
+--------------------------------
+
+ 12543 53 sensor: c_iridium_current_num = 0 enum
+
+--------------------------------
+ 12543    behavior surface_4: ! succeeded:put c_iridium_current_num 0
+
+ 12543    behavior surface_4: SUBSTATE 7 ->7 : After ! command, waiting for control-C to exit/resume
+s *.sbd *.tbd  -num=2
+
+--------------------------------
+ 12547 55 02480008.mlg LOG FILE CLOSED
+SCIENCE DATA LOGGING: science IS running
+CONSCI REQUESTED (using IRIDIUM as console)
+ASKING SCIENCE COMPUTER TO SWITCH TO COMMAND MODE via IRIDIUM
+SWITCHING TO SCIENCE COMMAND MODE over IRIDIUM
+Normal operation resumes when:
+    SciDos> QUIT              -or-
+    Lose CD (unplug freewave/hangup iridium) -or-
+    run longer than U_SCI_CMD_MAX_CONSCI_TIME(3600)s
+ 12559 57 Neutering the Freewave Console
+SCI: Implicitly limiting total transfer to 1800 secs, representing 180 KB total size
+SCI: Enumerating and selecting files
+SCI: About to send 2 files
+Prechecking is not necessary for this invocation
+START
+**B00000000000000
+Starting zModem transfer of 02480008.tbd to/from uivelo size is 9362
+Total Bytes sent/received: 1024
+Total Bytes sent/received: 2048
+Total Bytes sent/received: 3072
+Total Bytes sent/received: 4096
+Total Bytes sent/received: 5120
+Total Bytes sent/received: 6144
+Total Bytes sent/received: 7168
+Total Bytes sent/received: 8192
+Total Bytes sent/received: 9216
+Total Bytes sent/received: 9362
+zModem transfer DONE for file 02480008.tbd
+
+Starting zModem transfer of 02480007.tbd to/from uivelo size is 10533
+Total Bytes sent/received: 1024
+Total Bytes sent/received: 2048
+Total Bytes sent/received: 3072
+Total Bytes sent/received: 4096
+Total Bytes sent/received: 5120
+Total Bytes sent/received: 6144
+Total Bytes sent/received: 7168
+Total Bytes sent/received: 8192
+Total Bytes sent/received: 9216
+Total Bytes sent/received: 10240
+Total Bytes sent/received: 10533
+zModem transfer DONE for file 02480007.tbd
+O
+SHUFFLING FILES..
+SCI: Sent 2 file(s):
+c:\logs\02480008.TBD  c:\logs\02480007.TBD
+SCI: SUCCESS
+ 12738  1 Freewave console restored
+REVERTING FROM SCIENCE COMMAND MODE
+SCIENCE COMMAND MODE TERMINATED because:
+   Science Program QUIT (cts lowered)
+GLD: Enumerating and selecting files
+GLD: About to send 2 files
+Prechecking is not necessary for this invocation
+ 12744    save_and_change_sensors()....
+          Changed u_use_ctd_depth_for_flying from 1 to 0
+          Changed c_science_on from 1 to 0
+ 12744    save_and_change_sensors()....
+          Changed c_science_printout from 0 to 0
+Waiting for motors idle
+START
+**B00000000000000
+Starting zModem transfer of 02480008.sbd to/from uivelo size is 15283
+Total Bytes sent/received: 1024
+Total Bytes sent/received: 2048
+Total Bytes sent/received: 3072
+Total Bytes sent/received: 4096
+Total Bytes sent/received: 5120
+Total Bytes sent/received: 6144
+Total Bytes sent/received: 7168
+Total Bytes sent/received: 8192

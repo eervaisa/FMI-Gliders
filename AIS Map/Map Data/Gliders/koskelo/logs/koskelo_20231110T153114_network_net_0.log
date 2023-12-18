@@ -1,0 +1,106 @@
+Connection Event: Carrier Detect found.  5810    Iridium console active and ready...
+Vehicle Name: koskelo
+Curr Time: Fri Nov 10 15:31:05 2023 MT:    5810
+DR  Location:  5944.432 N  2313.894 E measured    1032.42 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  5944.468 N  2314.109 E measured    1129.52 secs ago
+GPS Location:  5944.432 N  2313.894 E measured    1034.48 secs ago
+   sensor:c_autoballast_state(enum)=0              1e+308 secs ago
+   sensor:c_climb_bpump(X)=1000                    1e+308 secs ago
+   sensor:c_dive_bpump(X)=-1000                    1e+308 secs ago
+   sensor:c_iridium_current_num(enum)=0            1e+308 secs ago
+   sensor:c_wpt_lat(lat)=5944.71                  5772.04 secs ago
+   sensor:c_wpt_lon(lon)=2314.05                  5772.04 secs ago
+   sensor:m_battery(volts)=16.2870607452689         3.772 secs ago
+   sensor:m_bms_aft_current(amp)=0.1825              3.96 secs ago
+   sensor:m_bms_ebay_current(amp)=-0.000937         3.991 secs ago
+   sensor:m_bms_pitch_current(amp)=0.144688         4.022 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=9.948856         3.879 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=10.235108        3.883 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1023        4.109 secs ago
+   sensor:m_iridium_attempt_num(nodim)=1           40.378 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       28.284 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.47899877899878        8.076 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.48092185592186        7.628 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=2.48162393162393        7.593 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=95.2394846511628        3.913 secs ago
+   sensor:m_tot_num_inflections(nodim)=9648       1152.53 secs ago
+   sensor:m_vacuum(inHg)=8.91783575091575            3.78 secs ago
+   sensor:m_water_vx(m/s)=-0.048407079676579      1036.53 secs ago
+   sensor:m_water_vy(m/s)=-0.171792344224897      1036.53 secs ago
+   sensor:u_alt_min_depth(m)=2                     1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=5944.71              1e+308 secs ago
+   sensor:x_last_wpt_lon(lon)=2314.05              1e+308 secs ago
+
+GliderDos N -1 >  5810    No login script found for processing.
+zs 01730000.scd
+About to send 1 files
+Prechecking 1 files: hit control-C to abort
+
+total_size of prechecked files = 32422 bytes
+Choosing console...using IRIDIUM
+  5834  0 save_and_change_sensors()....
+          Changed u_use_ctd_depth_for_flying from 0 to 0
+          Changed c_science_on from 1 to 0
+  5834    save_and_change_sensors()....
+          Changed c_science_printout from 0 to 0
+Waiting for motors idle
+START
+**B00000000000000
+Starting zModem transfer of 01730000.scd to/from koskelo size is 32422
+Total Bytes sent/received: 32422
+zModem transfer DONE for file 01730000.scd
+O  5850    restore_sensors()....
+          Restored u_use_ctd_depth_for_flying from 0 to 0
+          Restored c_science_on from 0 to 1
+  5850    restore_sensors()....
+  5850    restore_sensors()....
+          Restored c_science_printout from 0 to 0
+Successfully sent 1 file(s)
+
+GliderDos N -1 >Glider-Science software version match: 10.090000
+Science hardware version is 3.000000
+:OOD:digifin_mgr_ctrl:OUT OF DEADBAND: M_FIN:-0.0608 C_FIN:0.0000
+  5852  1 SCI:PROGLET house_elf begin() called
+  5852    SCI:   house_elf: Version 1.2
+  5852    SCI:PROGLET ctd41cp begin() called
+  5852    SCI:   ctd41cp: Version 0.2
+  5852    SCI:     ctd41cp:  Will be sending the following data to glider:
+  5852    SCI:           sci_water_cond(s/m)
+  5852    SCI:           sci_water_temp(degc)
+  5853    SCI:           sci_water_pressure(bar)
+  5853    SCI:           sci_ctd41cp_timestamp(timestamp)
+  5853    SCI:PROGLET seaOWL begin() called
+  5853    SCI:   seaOWL: Version 0.1
+  5853    SCI:     seaOWL:  Will be sending following data to glider:
+  5853    SCI:           sci_seaowl_chl_scaled(ug/l)
+  5853    SCI:           sci_seaowl_bb_scaled(nodim)
+  5853    SCI:           sci_seaowl_fdom_scaled(ppb)
+  5853    SCI:           sci_seaowl_chl_sig(nodim)
+  5853    SCI:           sci_seaowl_bb_sig(nodim)
+  5853    SCI:           sci_seaowl_fdom_sig(nodim)
+  5853    SCI:           sci_seaowl_timestamp(timestamp)
+  5853    SCI:           sci_generic_a(nodim)
+  5853    SCI:           sci_generic_b(nodim)
+  5853    SCI:           sci_generic_c(nodim)
+  5853    SCI:           sci_generic_d(nodim)
+  5853    SCI:           sci_generic_e(nodim)
+  5853    SCI:           sci_generic_f(nodim)
+  5853    SCI:           sci_generic_g(nodim)
+  5853    SCI:           sci_generic_h(nodim)
+  5853    SCI:           sci_generic_i(nodim)
+  5853    SCI:           sci_generic_j(nodim)
+  5853    SCI:           sci_generic_k(nodim)
+  5853    SCI:           sci_generic_l(nodim)
+  5853    SCI:           sci_generic_m(nodim)
+  5853    SCI:           sci_generic_n(nodim)
+  5853    SCI:           sci_generic_o(nodim)
+  5853    SCI:           sci_generic_p(nodim)
+  5853    SCI:           sci_generic_q(nodim)
+  5853    SCI:           sci_generic_r(nodim)
+  5853    SCI:           sci_generic_s(nodim)
+  5853    SCI:           sci_generic_t(nodim)
+  5853    SCI:           sci_generic_u(nodim)
+  5853    SCI:Bit(0) raise count is now 0.
+  5853    SCI:Bit(0) raise count is

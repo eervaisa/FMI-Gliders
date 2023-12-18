@@ -1,0 +1,70 @@
+Connection Event: Carrier Detect found.Connection Event: Carrier Detect lost.Connection Event: Carrier Detect found.  2475    Iridium console active and ready...
+Vehicle Name: koskelo
+Curr Time: Fri Nov 10 13:38:55 2023 MT:    2475
+DR  Location:  5944.343 N  2313.921 E measured      49.97 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  5944.397 N  2313.965 E measured    734.979 secs ago
+GPS Location:  5944.343 N  2313.921 E measured     51.023 secs ago
+   sensor:c_autoballast_state(enum)=0              1e+308 secs ago
+   sensor:c_climb_bpump(X)=1000                    1e+308 secs ago
+   sensor:c_dive_bpump(X)=-1000                    1e+308 secs ago
+   sensor:c_iridium_current_num(enum)=0            1e+308 secs ago
+   sensor:c_wpt_lat(lat)=5944.13                  2433.26 secs ago
+   sensor:c_wpt_lon(lon)=2313.69                  2433.26 secs ago
+   sensor:m_battery(volts)=16.2805504375039         3.771 secs ago
+   sensor:m_bms_aft_current(amp)=0.27156             3.91 secs ago
+   sensor:m_bms_ebay_current(amp)=-0.000937         3.941 secs ago
+   sensor:m_bms_pitch_current(amp)=0.2375           3.973 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=9.381232         3.829 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=9.66748399999996        3.833 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1021        0.071 secs ago
+   sensor:m_iridium_attempt_num(nodim)=2           45.467 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       29.469 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.4785409035409        3.767 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.48159340659341        3.731 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=2.48238705738706        3.696 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=95.5034958139535        3.864 secs ago
+   sensor:m_tot_num_inflections(nodim)=9644       744.266 secs ago
+   sensor:m_vacuum(inHg)=8.83438051282051          11.769 secs ago
+   sensor:m_water_vx(m/s)=0.07723203261352        658.942 secs ago
+   sensor:m_water_vy(m/s)=-0.001922387234843      658.946 secs ago
+   sensor:u_alt_min_depth(m)=2                     1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=5944.71              1e+308 secs ago
+   sensor:x_last_wpt_lon(lon)=2314.05              1e+308 secs ago
+  2476    No login script found for processing.
+:OOD:digifin_mgr_ctrl:OUT OF DEADBAND: M_FIN:-0.1071 C_FIN:0.0000
+:OOD:digifin_mgr_ctrl:OUT OF DEADBAND: M_FIN:-0.1071 C_FIN:0.0000
+
+
+
+
+Glider koskelo at surface.
+Because:pitch not commanded [behavior surface_4 start_when = 2.0]
+MissionName:drifttst.mi MissionNum:koskelo-2023-313-1-2 (0172.0002)
+Vehicle Name: koskelo
+Curr Time: Fri Nov 10 13:39:47 2023 MT:    2527
+DR  Location:  5944.343 N  2313.921 E measured    101.474 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  5944.397 N  2313.965 E measured    786.483 secs ago
+GPS Location:  5944.343 N  2313.921 E measured    102.527 secs ago
+   sensor:c_autoballast_state(enum)=0              1e+308 secs ago
+   sensor:c_climb_bpump(X)=1000                    1e+308 secs ago
+   sensor:c_dive_bpump(X)=-1000                    1e+308 secs ago
+   sensor:c_iridium_current_num(enum)=0            1e+308 secs ago
+   sensor:c_wpt_lat(lat)=5944.13                  2484.76 secs ago
+   sensor:c_wpt_lon(lon)=2313.69                  2484.77 secs ago
+   sensor:m_battery(volts)=16.2805504375039        55.275 secs ago
+   sensor:m_bms_aft_current(amp)=0.1975             3.425 secs ago
+   sensor:m_bms_ebay_current(amp)=-0.000937         3.456 secs ago
+   sensor:m_bms_pitch_current(amp)=0.171564         3.487 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=9.387576         3.344 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=9.67382799999996        3.348 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1021        3.575 secs ago
+   sensor:m_iridium_attempt_num(nodim)=2           96.971 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       80.973 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.4785409035409        55.27 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.48159340659341       55.235 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=2.48238705738706         55.2 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=95.5005451162791        3.378 secs ago
+   sensor:m_tot_num_inflections(nodim)=9644        795

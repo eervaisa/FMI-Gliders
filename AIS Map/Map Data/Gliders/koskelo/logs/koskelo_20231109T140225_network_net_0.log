@@ -1,0 +1,159 @@
+Connection Event: Carrier Detect found.  1268    Iridium console active and ready...
+Vehicle Name: koskelo
+Curr Time: Thu Nov  9 14:02:10 2023 MT:    1268
+DR  Location:  5949.129 N  2318.052 E measured      40.57 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  5949.184 N  2318.034 E measured    140.681 secs ago
+GPS Location:  5949.129 N  2318.052 E measured     40.773 secs ago
+   sensor:c_autoballast_state(enum)=0              1e+308 secs ago
+   sensor:c_climb_bpump(X)=1000                    1e+308 secs ago
+   sensor:c_dive_bpump(X)=-1000                    1e+308 secs ago
+   sensor:c_iridium_current_num(enum)=0            1e+308 secs ago
+   sensor:c_wpt_lat(lat)=5948.73                  1262.25 secs ago
+   sensor:c_wpt_lon(lon)=2317.78                  1262.26 secs ago
+   sensor:m_battery(volts)=16.3913096231854        55.793 secs ago
+   sensor:m_bms_aft_current(amp)=0.25               3.912 secs ago
+   sensor:m_bms_ebay_current(amp)=-0.000937         3.943 secs ago
+   sensor:m_bms_pitch_current(amp)=0.192188         3.974 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=1.704984         3.831 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=1.991236        3.835 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1021         0.07 secs ago
+   sensor:m_iridium_attempt_num(nodim)=2           36.066 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       24.079 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.47725885225885       51.315 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.48031135531136       51.279 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=2.48122710622711       51.244 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=99.0738437209302        3.865 secs ago
+   sensor:m_tot_num_inflections(nodim)=9418       168.752 secs ago
+   sensor:m_vacuum(inHg)=8.72017860805861          27.773 secs ago
+   sensor:m_water_vx(m/s)=-0.032384800205304       44.677 secs ago
+   sensor:m_water_vy(m/s)=-0.003122297332719       44.681 secs ago
+   sensor:u_alt_min_depth(m)=2                     1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=5949.17              1e+308 secs ago
+   sensor:x_last_wpt_lon(lon)=2317.89              1e+308 secs ago
+  1268    No login script found for processing.
+
+
+
+
+Glider koskelo at surface.
+Because:pitch not commanded [behavior surface_4 start_when = 2.0]
+MissionName:tvr20233.mi MissionNum:koskelo-2023-312-4-0 (0170.0000)
+Vehicle Name: koskelo
+Curr Time: Thu Nov  9 14:02:30 2023 MT:    1289
+DR  Location:  5949.129 N  2318.052 E measured     60.809 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  5949.184 N  2318.034 E measured     160.92 secs ago
+GPS Location:  5949.129 N  2318.052 E measured     61.012 secs ago
+   sensor:c_autoballast_state(enum)=0              1e+308 secs ago
+   sensor:c_climb_bpump(X)=1000                    1e+308 secs ago
+   sensor:c_dive_bpump(X)=-1000                    1e+308 secs ago
+   sensor:c_iridium_current_num(enum)=0            1e+308 secs ago
+   sensor:c_wpt_lat(lat)=5948.73                  1282.49 secs ago
+   sensor:c_wpt_lon(lon)=2317.78                   1282.5 secs ago
+   sensor:m_battery(volts)=16.3892795155677        12.024 secs ago
+   sensor:m_bms_aft_current(amp)=0.203124           3.423 secs ago
+   sensor:m_bms_ebay_current(amp)=-0.000937         3.454 secs ago
+   sensor:m_bms_pitch_current(amp)=0.203124         3.486 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=1.707496         3.342 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=1.993748        3.346 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1022        3.572 secs ago
+   sensor:m_iridium_attempt_num(nodim)=2           56.305 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       44.318 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.47851037851038        7.309 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.48177655677656        7.273 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=2.48241758241758        7.238 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=99.0726753488372        3.376 secs ago
+   sensor:m_tot_num_inflections(nodim)=9418       188.991 secs ago
+   sensor:m_vacuum(inHg)=8.72017860805861          48.012 secs ago
+   sensor:m_water_vx(m/s)=-0.032384800205304       64.916 secs ago
+   sensor:m_water_vy(m/s)=-0.003122297332719        64.92 secs ago
+   sensor:u_alt_min_depth(m)=2                     1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=1        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=5949.17              1e+308 secs ago
+   sensor:x_last_wpt_lon(lon)=2317.89              1e+308 secs ago
+devices:(t/m/s) errs:   0/   0/   0 warn:   0/   0/   0 odd:  18/   0/   0
+ABORT HISTORY: total since reset: 0
+
+   Hit Control-R to RESUME the mission, i.e. dive!
+   Hit Control-C to END    the mission, i.e. GliderDos
+   Hit Control-E to extend surface time by 5 minutes.
+   Hit Control-W to get device warning reports.
+   Hit Control-F to re-read yo, goto_l, surface, sample, drift_ mafiles.
+   Hit H <n> <0:1> to Hangup and call back in <n> minutes at 0-primary 1-alternate number.
+   Hit S [-f={rf}|{irid] [-num=<n>] [-t=<s>] [filespec ...] to send log files
+   Hit ! <GliderDos cmd>  to execute <GliderDos cmd>
+   Hit Control-T to consci to science computer when comms ready:
+                                               ... communications ready for consci.
+
+Water Velocity Calculations COMPLETE
+Waypoint: (5948.7300,2317.7800) Range: 782m, Bearing: 189deg, Age: 0:21h:m
+Time until diving is: 235 secs
+:OOD:digifin_mgr_ctrl:OUT OF DEADBAND: M_FIN:0.1013 C_FIN:0.0000
+^R  1308 27 behavior surface_4: User typed Control-R, resuming
+
+
+   I heard a Control-R
+   RESUMING MISSION
+
+  1309    01700000.mcg LOG FILE CLOSED
+Doing system wide housekeeping.......
+report_heap_size(): M_FREE_HEAP=244.5K(250364 bytes)
+                    M_MIN_FREE_HEAP=166.2K(170216 bytes)
+                    M_SRAM_FREE_HEAP=1293.2K(1324272 bytes)
+                    M_SRAM_MIN_FREE_HEAP=1162.2K(1190072 bytes)
+Running algorithm to free disk space if required
+Not necessary to delete any files at this time
+Scanning free space...
+Megabytes used      on c: = 563.750000
+Megabytes available on c: = 7311.250000
+Megabytes used      on w: = 0.021973
+Megabytes available on w: = 0.978027
+Writing longterm state disk file: c:/state/longterm.sta
+   f_ocean_pressure_min(volts) 0.098297
+   m_avg_climb_rate(m/s) -0.118050
+   m_avg_speed(m/s) 0.248313
+   m_avg_upward_inflection_time(sec) 30.686897
+   m_battery(volts) 16.389280
+   m_coulomb_amphr_total(amp-hrs) 1.997492
+   m_iridium_call_num(nodim) 1133.000000
+   m_iridium_dialed_num(nodim) 1806.000000
+   m_lat(lat) 5949.128500
+   m_lon(lon) 2318.051900
+   m_pump_effective_num_cycles(nodim) 652.699718
+   m_tot_ballast_pumped_energy(kjoules) 1530.780523
+   m_tot_horz_dist(km) 1064.902170
+   m_tot_num_inflections(nodim) 9418.000000
+   m_tot_num_thermal_valve_cmd(nodim) 0.000000
+   m_weight_drop(bool) 0.000000
+   s_water_depth_avg(m) 200.000000
+   s_water_depth_delta(m) 0.000000
+   s_water_depth_wavelength(m) 100.000000
+   x_hover_ballast_deep(cc) 4.835795
+   x_hover_ballast_shallow(cc) 0.000000
+   x_hover_depth_deep(m) 5.190226
+   x_hover_depth_shallow(m) 0.000000
+   x_last_wpt_lat(lat) 5949.170000
+   x_last_wpt_lon(lon) 2317.890000
+Housekeeping is done
+  1318 29 01700001.mcg LOG FILE OPENED
+  1318    init_gps_input()
+  1318    behavior surface_4: SUBSTATE 7 ->9 : Turning on thruster burst
+surface_4: Turning thruster on: 6.0 V.
+
+  1318    sensor: c_thruster_on = 36.6501549539315 %
+  1319 30 sensor: c_thruster_on = 36.6501549539315 %
+:OOD:digifin_mgr_ctrl:OUT OF DEADBAND: M_FIN:-0.0579 C_FIN:0.0000
+  1323 31 sensor: c_thruster_on = 36.6501549539315 %
+  1324    sensor: m_thruster_current = 0.5544 amp
+  1327 32 sensor: c_thruster_on = 36.6501549539315 %
+:OOD:digifin_mgr_ctrl:OUT OF DEADBAND: M_FIN:-0.0695 C_FIN:0.0000
+  1328    sensor: m_thruster_current = 0.5544 amp
+  1331 33 sensor: c_thruster_on = 36.6501549539315 %
+  1332    sensor: m_thruster_current = 0.396 amp
+surface_4: Turning thruster off (secs thr on).
+  1335 34 behavior surface_4: SUBSTATE 9 ->10 : Waiting for final gps fix
+:OOD:digifin_mgr_ctrl:OUT OF DEADBAND: M_FIN:-0.1158 C_FIN:0.0000
+surface_4: Waiting for final GPS fix.
+  1339 35 disabling Iridium console...

@@ -1,0 +1,89 @@
+Connection Event: Carrier Detect found.452.86    Iridium console active and ready...
+Vehicle Name: uivelo
+Curr Time: Thu Nov  9 08:38:46 2023 MT:     452
+DR  Location:  5948.963 N  2317.929 E measured       1.02 secs ago
+GPS TooFar:   69696969.000 N 69696969.000 E measured     1e+308 secs ago
+GPS Invalid :  5948.973 N  2317.978 E measured    158.028 secs ago
+GPS Location:  5948.963 N  2317.928 E measured    109.505 secs ago
+   sensor:c_autoballast_state(enum)=0              1e+308 secs ago
+   sensor:c_climb_bpump(X)=1000                    1e+308 secs ago
+   sensor:c_dive_bpump(X)=-1000                    1e+308 secs ago
+   sensor:c_iridium_current_num(enum)=0            1e+308 secs ago
+   sensor:c_wpt_lat(lat)=0                         1e+308 secs ago
+   sensor:c_wpt_lon(lon)=0                         1e+308 secs ago
+   sensor:m_battery(volts)=12.3735035087425         4.723 secs ago
+   sensor:m_bms_aft_current(amp)=0                 1e+308 secs ago
+   sensor:m_bms_ebay_current(amp)=0                1e+308 secs ago
+   sensor:m_bms_pitch_current(amp)=0               1e+308 secs ago
+   sensor:m_coulomb_amphr(amp-hrs)=0.0736249983310699      5.043 secs ago
+   sensor:m_coulomb_amphr_total(amp-hrs)=198.741181498329      5.061 secs ago
+   sensor:m_digifin_leakdetect_reading(nodim)=1022      1.037 secs ago
+   sensor:m_iridium_attempt_num(nodim)=3           42.423 secs ago
+   sensor:m_iridium_signal_strength(nodim)=5       13.343 secs ago
+   sensor:m_leakdetect_voltage(volts)=2.48168498168498      4.988 secs ago
+   sensor:m_leakdetect_voltage_forward(volts)=2.47625152625153      5.011 secs ago
+   sensor:m_leakdetect_voltage_science(volts)=-1      5.047 secs ago
+   sensor:m_lithium_battery_relative_charge(%)=72.397058125232      5.354 secs ago
+   sensor:m_tot_num_inflections(nodim)=5011        1e+308 secs ago
+   sensor:m_vacuum(inHg)=8.10522573260073           5.345 secs ago
+   sensor:m_water_vx(m/s)=-1.27107073885432       107.955 secs ago
+   sensor:m_water_vy(m/s)=-0.232814284762475      107.995 secs ago
+   sensor:u_alt_min_depth(m)=2                     1e+308 secs ago
+   sensor:u_use_current_correction(nodim)=0        1e+308 secs ago
+   sensor:x_last_wpt_lat(lat)=5949.4618            1e+308 secs ago
+   sensor:x_last_wpt_lon(lon)=1953.7388            1e+308 secs ago
+454.27    No login script found for processing.
+454.30    DRIVER_ODDITY:iridium:1518:xxx_ctrl() ran too long
+^C
+
+GliderDos N -1 >ruDELDELDELDELDEL
+
+Bad command or file name
+GliderDos N -1 >
+
+GliderDos N -1 >dir *.miDELDELDELDELDEL
+
+
+ Volume in drive C is UNIT_569   
+ Volume Serial Number is 072D-03DA
+ Directory of C:\
+
+
+         0 file(s)               0 bytes
+         0 dir(s)    1,456,734,208 bytes free
+
+GliderDos N -1 >cd missions
+
+\MISSIONS
+
+GliderDos N -1 >dir
+
+
+ Volume in drive C is UNIT_569   
+ Volume Serial Number is 072D-03DA
+ Directory of C:\MISSIONS\
+
+.              <DIR>         09-15-20 10:13a
+..             <DIR>         09-15-20 10:34a
+AB_INIT.MI              498  01-24-20  5:27p
+HOLD.MI               9,056  01-24-20  5:27p
+SCI_OFF.MI              365  01-24-20  5:27p
+ALT_BS.MI             2,285  11-20-23  8:53p
+BATHTUB.MI            5,765  01-24-20  5:27p
+STOCK.MI              5,538  01-24-20  5:27p
+LASTGASP.MI           8,555  10-25-20  6:44a
+PAUSEHLD.MI           7,159  01-24-20  5:27p
+FREEWIG.MI            6,749  01-24-20  5:27p
+INI0.MI               6,152  01-24-20  5:27p
+ATTCAL.MI             5,517  01-24-20  5:27p
+INI_ICE.MI            1,318  01-24-20  5:27p
+INI3M.MI              6,298  05-14-21  9:49a
+ICE.MI                1,342  01-24-20  5:27p
+INI5M.MI              6,353  08-31-19  4:15p
+INITIAL.MI            7,159  01-24-20  5:27p
+BREADCR.MI            8,991  01-24-20  5:27p
+LOADSIM.MI            4,948  01-24-20  5:27p
+NOFLY.MI              5,809  01-24-20  5:27p
+ASTOCK.MI             5,624  01-24-20  5:27p
+CLRABORT.MI             619  01-24-20  5:27p
+SETPITCH.MI 
