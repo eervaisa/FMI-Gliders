@@ -1,3 +1,10 @@
+The necessary packages can be installed in your active python environment using the glider_requirements.txt file:
+pip install -r glider_requirements.txt
+
+Notice that dbdreader may have issues installing on Windows 
+(check https://github.com/smerckel/dbdreader) 
+and consider removing it from the file and installing it manually, separately instead.
+
 dbdreader_EDA.ipynb
     Contains helpful functions for glider data quality assurance using exploratory data analysis.
     See the notebook for more detailed documentation.

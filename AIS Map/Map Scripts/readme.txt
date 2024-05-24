@@ -12,12 +12,21 @@ The glider popup graphs can be controlled with click-drag, scroll-zoom and reset
 When clicking a ship, its range, previous path and predicted path will be shown.
 The range circle can be removed by double-clicking it.
 
-To create a conda environment capable of running all the files, use the following commands:
+The necessary packages can be installed in your active python environment using the map_requirements.txt file:
+pip install -r map_requirements.txt
+
+Alternatively you can create a new environment, potentially for new features or fixes to the packages
+(such as when this project was originally created, the compatible version of Folium had a bugged measurement tool).
+
+To create a conda environment capable of running all the script files, use the following commands:
 conda create -n your_env_name_here
 conda activate your_env_name_here
 conda config --env --add channels conda-forge
 conda config --env --set channel_priority strict
 conda install python=3 geopandas altair
+
+For the notebooks you'll also need:
+pip install ipykernel ipynb
 
 initialize_ais_database.py
     Run to initialize the SQLite database: gets ALL possible metadata (since 2018-01-01)
