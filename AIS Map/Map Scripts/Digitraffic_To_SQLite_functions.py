@@ -98,7 +98,7 @@ def format_port_identifiers(locodes):
     # Edit names to help matching
     locodes["SimpleName"] = locodes["NameWoDiacritics"].str.upper()
     locodes.replace({"SimpleName": {r"[^A-Z/(\s]": ""}}, regex = True, inplace = True)
-    locodes.SimpleName.replace(r"\s+", " ", inplace = True, regex = True)
+    locodes.replace({"SimpleName": {r"\s+": " "}}, regex = True, inplace = True)
     locodes.SimpleName.str.strip()
 
     # Turn names/locodes into regex patterns
@@ -136,7 +136,7 @@ def format_port_identifiers(locodes):
     dupes["SimpleName"] = ""
     dupes.update(eu_dupes["SimpleName"])
     locodes.update(dupes["SimpleName"], overwrite=True)
-    locodes.SimpleName.replace(r"^\s*$", pd.NA, regex = True, inplace = True)
+    locodes.replace({"SimpleName": {r"^\s*$": pd.NA}}, regex = True, inplace = True)
 
     return locodes
 
@@ -384,8 +384,9 @@ def replace_invalid_alt_port_names(loc_name_matches, invalid_alt_names, column_n
     loc_name_matches.index.name = None
 
     # Replace names not used in locodes
-    loc_name_matches[column_name].mask(loc_name_matches['Name2'].notna(), 
-                                       loc_name_matches['Name1'], inplace = True)
+    loc_name_matches[column_name] = loc_name_matches[column_name].mask(
+                                        loc_name_matches['Name2'].notna(), 
+                                        loc_name_matches['Name1'])
 
     loc_name_matches.drop(columns = ["Name2", "Name1"], inplace = True)
 
@@ -495,8 +496,8 @@ def match_port_identifiers(meta_df, locodes):
     extracted_loc_names = match_port_names(meta_df, locodes)
 
     # Merge to get locodes
-    locodes.SimpleName.replace(r"[^A-Z\s]", "", inplace = True, regex = True)
-    locodes.SimpleName.replace(r"\s+", " ", inplace = True, regex = True)
+    locodes.replace({"SimpleName": {r"[^A-Z\s]": ""}}, inplace = True, regex = True)
+    locodes.replace({"SimpleName": {r"\s+": " "}}, inplace = True, regex = True)
     locodes.SimpleName.str.strip()
     
     extracted_loc_names = extract_locode_from_name(extracted_loc_names, locodes, 
@@ -675,7 +676,7 @@ def collect_ships_locations(latitude, longitude, distance, since):
     df = df.replace({'sog': 102.3, 
                      'cog': 360, 
                      'rot': -128, 
-                     'heading': 511}, np.NaN)
+                     'heading': 511}, np.nan)
     
     df = classify_regions(df, "latitude", "longitude", "shipRegion")
 
@@ -726,7 +727,7 @@ def collect_specific_ships_locations(mmsi_list):
     df = df.replace({'sog': 102.3, 
                      'cog': 360, 
                      'rot': -128, 
-                     'heading': 511}, np.NaN)
+                     'heading': 511}, np.nan)
     
     df = classify_regions(df, "latitude", "longitude", "shipRegion")
 
@@ -772,7 +773,7 @@ def collect_ships_meta(since):
                   "referencePointC", "referencePointD"], axis=1)
 
     # Replace default / not available values with NAs
-    df = df.replace({'draught': 0}, np.NaN)
+    df = df.replace({'draught': 0}, np.nan)
     
     # Rename timestamp column to a more descriptive name for merging tables later
     df = df.rename(columns={"timestamp": "metaUpdateTimestamp"})

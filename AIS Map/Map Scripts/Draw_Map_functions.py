@@ -92,7 +92,7 @@ def load_data(db_connection, since):
     ship_paths_df = ships_df[["mmsi", "latitude", "longitude"]].copy()
     ship_paths_df.drop_duplicates(inplace = True)
     ship_paths_df["coords"] = ship_paths_df[["latitude", "longitude"]].values.tolist()
-    ship_paths_df = ship_paths_df.groupby("mmsi").apply(lambda row: list(row["coords"])).reset_index()
+    ship_paths_df = ship_paths_df.groupby("mmsi").apply(lambda row: list(row["coords"]), include_groups=False).reset_index()
     ship_paths_df.rename(columns = {0: "path"}, inplace = True)
 
     # Take only latest location and add path column
@@ -725,7 +725,7 @@ def extrapolate_variables(glider_df, extrapolation_variables, extrapolation_targ
 
     # Create the dataframe used to hold extrapolated data
     last_datetime = glider_df["datetime"].loc[glider_df["datetime"].idxmax()]
-    extrapolated_data = pd.DataFrame([np.full(len(extrapolation_variables), np.NaN)], columns=extrapolation_variables)
+    extrapolated_data = pd.DataFrame([np.full(len(extrapolation_variables), np.nan)], columns=extrapolation_variables)
     extrapolated_data = extrapolated_data.add_suffix("_extrapolated")
     extrapolated_data["datetime"] = last_datetime
 
@@ -747,7 +747,7 @@ def extrapolate_variables(glider_df, extrapolation_variables, extrapolation_targ
             avg_gradient = np.average(gradient_df[gradient_timeframe_idx][f"{variable}_per_second"], 
                                       weights=gradient_df[gradient_timeframe_idx]["datetime"].dt.seconds)
         else:
-            avg_gradient = np.NaN
+            avg_gradient = np.nan
 
         if(np.isnan(avg_gradient) | 
            (avg_gradient*(extrapolation_target-last_value) <= 0)): # Gradient == 0 or different sign from expected gradient
@@ -1088,7 +1088,7 @@ def add_tile_layers(map):
                      attr='Data by: Fintraffic / digitraffic.fi, license CC 4.0 BY, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors').add_to(map)
 
     # Alternate base map from bathymetry data
-    bathymetry_layer = folium.map.FeatureGroup(name = "EMODNET Bathymetry and coast lines", overlay = False)
+    bathymetry_layer = folium.map.FeatureGroup(name = "EMODNET Bathymetry and coast lines", overlay = False, show=False)
 
     folium.WmsTileLayer(url = "https://ows.emodnet-bathymetry.eu/wms", 
                         layers="mean_atlas_land", 
